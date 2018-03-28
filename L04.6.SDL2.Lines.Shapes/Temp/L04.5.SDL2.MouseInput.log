@@ -1,0 +1,35 @@
+﻿  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.5.SDL2.MouseInput\ThirdParty\SDL2-2.0.7\lib\x86\libfreetype-6.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.5.SDL2.MouseInput\ThirdParty\SDL2-2.0.7\lib\x86\SDL2.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.5.SDL2.MouseInput\ThirdParty\SDL2-2.0.7\lib\x86\SDL2_ttf.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.5.SDL2.MouseInput\ThirdParty\SDL2-2.0.7\lib\x86\zlib1.dll
+          4 file(s) copied.
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.5.SDL2.MouseInput\ThirdParty\SDL2_image-2.0.2\lib\x86\libjpeg-9.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.5.SDL2.MouseInput\ThirdParty\SDL2_image-2.0.2\lib\x86\libpng16-16.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.5.SDL2.MouseInput\ThirdParty\SDL2_image-2.0.2\lib\x86\libtiff-5.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.5.SDL2.MouseInput\ThirdParty\SDL2_image-2.0.2\lib\x86\libwebp-7.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.5.SDL2.MouseInput\ThirdParty\SDL2_image-2.0.2\lib\x86\SDL2_image.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.5.SDL2.MouseInput\ThirdParty\SDL2_image-2.0.2\lib\x86\zlib1.dll
+          6 file(s) copied.
+  Timer.cpp
+  Texture.cpp
+  Source.cpp
+  GraphicsDevice.cpp
+  GameObject.cpp
+c:\users\sean orme\google drive\cpsc 4377\code examples\l04.5.sdl2.mouseinput\source\gameobject.cpp(144): warning C4838: conversion from 'Uint32' to 'int' requires a narrowing conversion
+  Generating Code...
+     Creating library C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.5.SDL2.MouseInput\Game\L04.5.SDL2.MouseInput.lib and object C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.5.SDL2.MouseInput\Game\L04.5.SDL2.MouseInput.exp
+  L04.5.SDL2.MouseInput.vcxproj -> C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.5.SDL2.MouseInput\Game\L04.5.SDL2.MouseInput.exe
+  L04.5.SDL2.MouseInput.vcxproj -> C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.5.SDL2.MouseInput\Game\L04.5.SDL2.MouseInput.pdb (Partial PDB)
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.5.SDL2.MouseInput\libfreetype-6.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.5.SDL2.MouseInput\libjpeg-9.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.5.SDL2.MouseInput\libpng16-16.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.5.SDL2.MouseInput\libtiff-5.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.5.SDL2.MouseInput\libwebp-7.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.5.SDL2.MouseInput\SDL2.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.5.SDL2.MouseInput\SDL2_image.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.5.SDL2.MouseInput\SDL2_ttf.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.5.SDL2.MouseInput\zlib1.dll
+          9 file(s) moved.
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.5.SDL2.MouseInput\Assets\Fonts\impact.ttf -> C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.5.SDL2.MouseInput\Game\Assets\Fonts\impact.ttf
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.5.SDL2.MouseInput\Assets\Images\button.png -> C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.5.SDL2.MouseInput\Game\Assets\Images\button.png
+  2 File(s) copied

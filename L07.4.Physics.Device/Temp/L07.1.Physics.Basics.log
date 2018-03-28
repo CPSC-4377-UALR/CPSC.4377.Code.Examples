@@ -1,0 +1,33 @@
+﻿  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L07.1.Physics.Basics\ThirdParty\SDL2-2.0.7\lib\x86\libfreetype-6.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L07.1.Physics.Basics\ThirdParty\SDL2-2.0.7\lib\x86\SDL2.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L07.1.Physics.Basics\ThirdParty\SDL2-2.0.7\lib\x86\SDL2_ttf.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L07.1.Physics.Basics\ThirdParty\SDL2-2.0.7\lib\x86\zlib1.dll
+          4 file(s) copied.
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L07.1.Physics.Basics\ThirdParty\SDL2_image-2.0.2\lib\x86\libjpeg-9.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L07.1.Physics.Basics\ThirdParty\SDL2_image-2.0.2\lib\x86\libpng16-16.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L07.1.Physics.Basics\ThirdParty\SDL2_image-2.0.2\lib\x86\libtiff-5.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L07.1.Physics.Basics\ThirdParty\SDL2_image-2.0.2\lib\x86\libwebp-7.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L07.1.Physics.Basics\ThirdParty\SDL2_image-2.0.2\lib\x86\SDL2_image.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L07.1.Physics.Basics\ThirdParty\SDL2_image-2.0.2\lib\x86\zlib1.dll
+          6 file(s) copied.
+  Source.cpp
+c:\users\sean orme\google drive\cpsc 4377\code examples\l07.1.physics.basics\source\source.cpp(27): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\sean orme\google drive\cpsc 4377\code examples\l07.1.physics.basics\source\source.cpp(47): warning C4244: 'argument': conversion from 'float' to 'Uint32', possible loss of data
+c:\users\sean orme\google drive\cpsc 4377\code examples\l07.1.physics.basics\source\source.cpp(64): warning C4244: 'argument': conversion from 'const int' to 'GAME_FLT', possible loss of data
+c:\users\sean orme\google drive\cpsc 4377\code examples\l07.1.physics.basics\source\source.cpp(65): warning C4244: 'argument': conversion from 'const int' to 'GAME_FLT', possible loss of data
+c:\users\sean orme\google drive\cpsc 4377\code examples\l07.1.physics.basics\source\source.cpp(66): warning C4244: 'argument': conversion from 'const int' to 'GAME_FLT', possible loss of data
+  L07.1.Physics.Basics.vcxproj -> C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L07.1.Physics.Basics\Game\L07.1.Physics.Basics.exe
+  L07.1.Physics.Basics.vcxproj -> C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L07.1.Physics.Basics\Game\L07.1.Physics.Basics.pdb (Partial PDB)
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L07.1.Physics.Basics\libfreetype-6.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L07.1.Physics.Basics\libjpeg-9.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L07.1.Physics.Basics\libpng16-16.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L07.1.Physics.Basics\libtiff-5.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L07.1.Physics.Basics\libwebp-7.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L07.1.Physics.Basics\SDL2.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L07.1.Physics.Basics\SDL2_image.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L07.1.Physics.Basics\SDL2_ttf.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L07.1.Physics.Basics\zlib1.dll
+          9 file(s) moved.
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L07.1.Physics.Basics\Assets\Fonts\impact.ttf -> C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L07.1.Physics.Basics\Game\Assets\Fonts\impact.ttf
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L07.1.Physics.Basics\Assets\Images\Megaman.png -> C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L07.1.Physics.Basics\Game\Assets\Images\Megaman.png
+  2 File(s) copied

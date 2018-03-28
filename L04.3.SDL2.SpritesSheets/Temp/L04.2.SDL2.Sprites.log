@@ -1,0 +1,23 @@
+﻿  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.2.SDL2.Sprites\ThirdParty\SDL2-2.0.7\lib\x86\SDL2.dll
+          1 file(s) copied.
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.2.SDL2.Sprites\ThirdParty\SDL2_image-2.0.2\lib\x86\libjpeg-9.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.2.SDL2.Sprites\ThirdParty\SDL2_image-2.0.2\lib\x86\libpng16-16.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.2.SDL2.Sprites\ThirdParty\SDL2_image-2.0.2\lib\x86\libtiff-5.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.2.SDL2.Sprites\ThirdParty\SDL2_image-2.0.2\lib\x86\libwebp-7.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.2.SDL2.Sprites\ThirdParty\SDL2_image-2.0.2\lib\x86\SDL2_image.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.2.SDL2.Sprites\ThirdParty\SDL2_image-2.0.2\lib\x86\zlib1.dll
+          6 file(s) copied.
+  Source.cpp
+     Creating library C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.2.SDL2.Sprites\Game\L04.2.SDL2.Sprites.lib and object C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.2.SDL2.Sprites\Game\L04.2.SDL2.Sprites.exp
+  L04.2.SDL2.Sprites.vcxproj -> C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.2.SDL2.Sprites\Game\L04.2.SDL2.Sprites.exe
+  L04.2.SDL2.Sprites.vcxproj -> C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.2.SDL2.Sprites\Game\L04.2.SDL2.Sprites.pdb (Partial PDB)
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.2.SDL2.Sprites\libjpeg-9.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.2.SDL2.Sprites\libpng16-16.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.2.SDL2.Sprites\libtiff-5.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.2.SDL2.Sprites\libwebp-7.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.2.SDL2.Sprites\SDL2.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.2.SDL2.Sprites\SDL2_image.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.2.SDL2.Sprites\zlib1.dll
+          7 file(s) moved.
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.2.SDL2.Sprites\Assets\Images\PlayerPaper.png -> C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.2.SDL2.Sprites\Game\Assets\Images\PlayerPaper.png
+  1 File(s) copied

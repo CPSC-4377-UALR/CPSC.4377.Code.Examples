@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<SpaceShip>
+    <!-- Parameters for SpaceShip -->
+    <Params>
+        <ANGLE type="2" value="0.0f" />
+        <FUEL type="0" value="10" />
+        <SPRITEPATH type="0" value="./Images/PaperPlayer.png" />
+        <XPOS type="0" value="14.7" />
+        <YPOS type="0" value="31.8" />
+    </Params>
+</SpaceShip>

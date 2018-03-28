@@ -1,0 +1,34 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.6.SDL2.Lines.Shapes\Temp\) contains files shared from another project (L04.5.SDL2.MouseInput.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.6.SDL2.Lines.Shapes\ThirdParty\SDL2-2.0.7\lib\x86\libfreetype-6.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.6.SDL2.Lines.Shapes\ThirdParty\SDL2-2.0.7\lib\x86\SDL2.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.6.SDL2.Lines.Shapes\ThirdParty\SDL2-2.0.7\lib\x86\SDL2_gfx.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.6.SDL2.Lines.Shapes\ThirdParty\SDL2-2.0.7\lib\x86\SDL2_ttf.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.6.SDL2.Lines.Shapes\ThirdParty\SDL2-2.0.7\lib\x86\zlib1.dll
+          5 file(s) copied.
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.6.SDL2.Lines.Shapes\ThirdParty\SDL2_image-2.0.2\lib\x86\libjpeg-9.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.6.SDL2.Lines.Shapes\ThirdParty\SDL2_image-2.0.2\lib\x86\libpng16-16.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.6.SDL2.Lines.Shapes\ThirdParty\SDL2_image-2.0.2\lib\x86\libtiff-5.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.6.SDL2.Lines.Shapes\ThirdParty\SDL2_image-2.0.2\lib\x86\libwebp-7.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.6.SDL2.Lines.Shapes\ThirdParty\SDL2_image-2.0.2\lib\x86\SDL2_image.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.6.SDL2.Lines.Shapes\ThirdParty\SDL2_image-2.0.2\lib\x86\zlib1.dll
+          6 file(s) copied.
+  Timer.cpp
+  Source.cpp
+  GraphicsDevice.cpp
+  GameObject.cpp
+  Generating Code...
+     Creating library C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.6.SDL2.Lines.Shapes\Game\L04.6.SDL2.Lines.Shapes.lib and object C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.6.SDL2.Lines.Shapes\Game\L04.6.SDL2.Lines.Shapes.exp
+  L04.6.SDL2.Lines.Shapes.vcxproj -> C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.6.SDL2.Lines.Shapes\Game\L04.6.SDL2.Lines.Shapes.exe
+  L04.6.SDL2.Lines.Shapes.vcxproj -> C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.6.SDL2.Lines.Shapes\Game\L04.6.SDL2.Lines.Shapes.pdb (Partial PDB)
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.6.SDL2.Lines.Shapes\libfreetype-6.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.6.SDL2.Lines.Shapes\libjpeg-9.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.6.SDL2.Lines.Shapes\libpng16-16.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.6.SDL2.Lines.Shapes\libtiff-5.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.6.SDL2.Lines.Shapes\libwebp-7.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.6.SDL2.Lines.Shapes\SDL2.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.6.SDL2.Lines.Shapes\SDL2_gfx.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.6.SDL2.Lines.Shapes\SDL2_image.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.6.SDL2.Lines.Shapes\SDL2_ttf.dll
+  C:\Users\Sean Orme\Google Drive\CPSC 4377\Code Examples\L04.6.SDL2.Lines.Shapes\zlib1.dll
+         10 file(s) moved.
+  0 File(s) copied
