@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{FCD81A9D-D873-4DD8-A893-C19AA9435430}</ProjectGuid>
+    <ProjectGuid>{E6CB4246-CE36-4DCA-95EF-29494C1700F4}</ProjectGuid>
     <RootNamespace>L042SDL2Sprites</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -129,17 +129,23 @@ xcopy "$(ProjectDir)Assets" "$(ProjectDir)Game\Assets" /E /I /F /Y</Command>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Source\Constants.h" />
+    <ClInclude Include="Source\ContactListener.h" />
     <ClInclude Include="Source\GameObject.h" />
     <ClInclude Include="Source\GraphicsDevice.h" />
     <ClInclude Include="Source\Texture.h" />
     <ClInclude Include="Source\Timer.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Source\ContactListener.cpp" />
     <ClCompile Include="Source\GameObject.cpp" />
     <ClCompile Include="Source\GraphicsDevice.cpp" />
     <ClCompile Include="Source\Source.cpp" />
     <ClCompile Include="Source\Texture.cpp" />
     <ClCompile Include="Source\Timer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Images\Ball.png" />
+    <Image Include="Assets\Images\BallBearing.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

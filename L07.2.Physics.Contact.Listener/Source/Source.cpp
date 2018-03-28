@@ -2,20 +2,27 @@
 * Author:	Keith Bush
 *			UALR
 *
-* Date:		March 1, 2015
+* Date:		March 11, 2015
 *
 * File:		Source.cpp
 *
-* Purpose:	Demontrate the inclusion of a physics body into a game object.
+* Purpose:	Demonstrate the use of contact listener
 */
 
+//System Headers
 #include <iostream>
+
+//Library Headers
 #include "SDL.h"
+#include "Box2D/Box2D.h"
+
+//Game Headers
 #include "GraphicsDevice.h"
 #include "Timer.h"
 #include "GameObject.h"
+#include "ContactListener.h"
 #include "Constants.h"
-#include "Box2D/Box2D.h"
+
 
 int main(int argc, char *argv[])
 {
@@ -25,7 +32,7 @@ int main(int argc, char *argv[])
 	int SCREEN_HEIGHT = 600;
 
 	//Time per frame
-	float dt = 1.0 / 50.0f;
+	float dt = 1.0f / 50.0f;
 
 	//Construct Graphical Device
 	GraphicsDevice* gDevice = new GraphicsDevice(SCREEN_WIDTH, SCREEN_HEIGHT);
@@ -44,13 +51,13 @@ int main(int argc, char *argv[])
 
 	//Construct Frame Timer
 	Timer* fps = new Timer();
-	if (!fps->Initialize((Uint32)1 / dt)) {
+	if (!fps->Initialize((Uint32)(1 / dt))) {
 		printf("Frame Timer could not initialize! SDL_Error: %s\n", SDL_GetError());
 		exit(1);
 	}
 
 	//
-	//1. Construct Physics World
+	//Construct Physics World
 	//
 	const b2Vec2 gravity(RW2PW(0), RW2PW(+200));
 	b2World* world = new b2World(gravity);
@@ -69,7 +76,7 @@ int main(int argc, char *argv[])
 	b2EdgeShape shape;
 
 	//Set-up debuggin
-	//world->SetDebugDraw(NULL);
+	world->SetDebugDraw(NULL);
 
 	//Create bottom boundary
 	shape.Set(vBottomLeft, vBottomRight);
@@ -84,11 +91,21 @@ int main(int argc, char *argv[])
 	edge->CreateFixture(&shape, 0);
 
 	//
-	//Initialize Game Object
+	//Initialize Game Objects
 	//
-	GameObject* object = new GameObject();
-	//2. Add body to world (done in initialize here)
-	object->Initialize(gDevice->getRenderer(), "./Assets/Images/PlayerPaper.png", world);
+	GameObject* object1 = new GameObject();
+	object1->Initialize(gDevice->getRenderer(), "./Assets/Images/Ball.png", world, 300, 50);
+
+	GameObject* object2 = new GameObject();
+	object2->Initialize(gDevice->getRenderer(), "./Assets/Images/BallBearing.png", world, 300, 250);
+
+	//
+	//Define Contact Listener
+	//
+	ContactListener* cl = new ContactListener();
+
+	//Add the contact listener the physics world
+	world->SetContactListener(cl);
 
 	//Initialize Termination Criteria
 	bool quit = false;
@@ -113,12 +130,14 @@ int main(int argc, char *argv[])
 		//
 		//Object handles relevant events
 		//
-		object->HandleEvent(event);
+		object1->HandleEvent(event);
+		object2->HandleEvent(event);
 
 		//
 		//Conduct the Game Logic update (i.e., physics/animation)
 		//
-		object->Update(dt);
+		object1->Update(dt);
+		object2->Update(dt);
 
 		//
 		//Conduct Physics update
@@ -131,13 +150,16 @@ int main(int argc, char *argv[])
 		gDevice->Begin();
 
 		//Draw a game object
-		object->Draw();
+		object1->Draw();
+		object2->Draw();
 
 		//End the frame and draw to window
 		gDevice->Present();
 
 		//Buffer the Frames per second (if necessary)
 		fps->fpsRegulate();
+
+		//SDL_Delay(4000);// DEBUG
 
 	}
 

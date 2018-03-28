@@ -30,6 +30,9 @@
     <ClCompile Include="Source\Timer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Source\ContactListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\GraphicsDevice.h">
@@ -47,5 +50,16 @@
     <ClInclude Include="Source\Timer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Source\ContactListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Images\Ball.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Images\BallBearing.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>

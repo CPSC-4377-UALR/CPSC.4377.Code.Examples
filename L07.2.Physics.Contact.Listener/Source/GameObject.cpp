@@ -22,7 +22,7 @@ GameObject::~GameObject()
 	texture = NULL;
 }
 
-bool GameObject::Initialize(SDL_Renderer* renderer, std::string path, b2World* world)
+bool GameObject::Initialize(SDL_Renderer* renderer, std::string path, b2World* world, Uint32 x, Uint32 y)
 {
 	//Assign the renderer for  this object
 	this->renderer = renderer;
@@ -43,36 +43,19 @@ bool GameObject::Initialize(SDL_Renderer* renderer, std::string path, b2World* w
 	//
 	//Initialize Physics
 	//
-	//1. Define Body!
-	//	a. dynamic - Will interact and can be interacted with and can move. i.e. player and enemies
-	//	b. kinematic - will interact, CAN NOT be interacted with, and can move. i.e. moving platform
-	//  c.static - will interact, cannot be interacted with, and CAN NOT move!! i.e. ground and walls
-	
 	bd.type = b2_dynamicBody;
-	//initial position
-	bd.position.Set(RW2PW(200), RW2PW(0));
-	//initial angle SDL2 uses degrees while box2D uses radians. RW2PWAngle translates from degrees to radians!
+	bd.position.Set(RW2PW((int)x), RW2PW((int)y));
 	bd.angle = RW2PWAngle(60.0f);
-	//Register Body with Physics World. body is a member of this class (not good practice. 
-	body = world->CreateBody(&bd);  
-	//userData is a void* and can store anything! great for finding the body back later!
-	body->SetUserData(this);
+	body = world->CreateBody(&bd);  //Register Body with Physics World
 
-	//Set up physics shape. There are several. Box is a rectangle and the height and width are the distance from the center to the edge. i.e. the radii of the rectangle
-	shape.SetAsBox(RW2PW(texture->getWidth() / 2.0f), RW2PW(texture->getHeight() / 2.0f)); //Requires half widths
-	
+									//Set up physics shape
+	shape.m_radius = RW2PW(texture->getWidth() / 1.5f);
+
 	//Set up physics fixture (shape, density, restitution)
 	shapefd.shape = &shape;
-
-	//the denser it is, the more gravity effects it!
 	shapefd.density = 0.1f;
-	//The higher the friction, the more velocity is lost when it rubs along something
 	shapefd.friction = 0.5f;
-	//how "bouncy" something is. in other words, how much force is returned to an object that runs into it.
 	shapefd.restitution = 0.9f;
-
-	//A body can have multiple fixture that have different properties.
-	//more fixtures means more detailed physics, but more CPU usuage!
 	body->CreateFixture(&shapefd); //Register fixture with physics world
 
 	initialized = true;
@@ -143,4 +126,10 @@ void GameObject::Draw()
 		//Reset command
 		command = "";
 	}
+}
+
+
+b2Body* GameObject::getPhysicsBody()
+{
+	return(body);
 }

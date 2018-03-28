@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "L05.1.Component.MegaMan", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "L07.1.Physics.Basics", "L07.1.Physics.Basics.Take.2\L07.1.Physics.Basics.vcxproj", "{FCD81A9D-D873-4DD8-A893-C19AA9435430}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "L07.2.Physics.Contact.Listener", "L07.2.Physics.Contact.Listener\L07.2.Physics.Contact.Listener.vcxproj", "{E6CB4246-CE36-4DCA-95EF-29494C1700F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -125,6 +127,14 @@ Global
 		{FCD81A9D-D873-4DD8-A893-C19AA9435430}.Release|x64.Build.0 = Release|x64
 		{FCD81A9D-D873-4DD8-A893-C19AA9435430}.Release|x86.ActiveCfg = Release|Win32
 		{FCD81A9D-D873-4DD8-A893-C19AA9435430}.Release|x86.Build.0 = Release|Win32
+		{E6CB4246-CE36-4DCA-95EF-29494C1700F4}.Debug|x64.ActiveCfg = Debug|x64
+		{E6CB4246-CE36-4DCA-95EF-29494C1700F4}.Debug|x64.Build.0 = Debug|x64
+		{E6CB4246-CE36-4DCA-95EF-29494C1700F4}.Debug|x86.ActiveCfg = Debug|Win32
+		{E6CB4246-CE36-4DCA-95EF-29494C1700F4}.Debug|x86.Build.0 = Debug|Win32
+		{E6CB4246-CE36-4DCA-95EF-29494C1700F4}.Release|x64.ActiveCfg = Release|x64
+		{E6CB4246-CE36-4DCA-95EF-29494C1700F4}.Release|x64.Build.0 = Release|x64
+		{E6CB4246-CE36-4DCA-95EF-29494C1700F4}.Release|x86.ActiveCfg = Release|Win32
+		{E6CB4246-CE36-4DCA-95EF-29494C1700F4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -13,7 +13,7 @@ class GameObject
 public:
 	GameObject();
 	~GameObject();
-	bool Initialize(SDL_Renderer*, std::string, b2World* world);
+	bool Initialize(SDL_Renderer*, std::string, b2World* world, Uint32 x, Uint32 y);
 	void HandleEvent(SDL_Event*);
 	void Update(float);
 	void Draw();
@@ -28,7 +28,7 @@ protected:
 
 	//Box2D Physics Components
 	b2BodyDef bd;
-	b2PolygonShape shape;
+	b2CircleShape shape;  //In this example the shape is a circle!!!
 	b2FixtureDef shapefd;
 	b2Body* body;
 
