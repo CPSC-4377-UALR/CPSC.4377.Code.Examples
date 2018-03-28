@@ -109,6 +109,7 @@ void GameObject::Update(float dt)
 	if (command == "right")
 	{
 		body->SetAngularVelocity(body->GetAngularVelocity() + 2.0f*dt);
+
 	}
 
 }

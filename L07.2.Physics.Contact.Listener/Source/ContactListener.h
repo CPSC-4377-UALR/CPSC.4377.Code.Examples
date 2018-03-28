@@ -15,6 +15,7 @@ public:
 
 	void PreSolve(b2Contact* contact, const b2Manifold* oldManifold)
 	{
+		
         //Grab the two Physics Bodies involved in the Contact
 		b2Body* bodyA = contact->GetFixtureA()->GetBody();
 		b2Body* bodyB = contact->GetFixtureB()->GetBody();
@@ -22,7 +23,7 @@ public:
         //Conduct a modification
 		if(bodyA->GetType() == b2_dynamicBody)
 			bodyA->SetLinearVelocity(b2Vec2(RW2PW(-300),RW2PW(-100)));
-		else
+		if (bodyB->GetType() == b2_dynamicBody)
 			bodyB->SetLinearVelocity(b2Vec2(RW2PW(300), RW2PW(300)));
 	}
 
