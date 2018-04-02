@@ -1,0 +1,21 @@
+﻿  UserInputComponent.cpp
+c:\users\sean orme\google drive\cpsc 4377\code examples\l07.1.physics.basics\source\userinputcomponent.h(4): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Timer.cpp
+c:\users\sean orme\google drive\cpsc 4377\code examples\l07.1.physics.basics\source\timer.h(4): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Texture.cpp
+c:\users\sean orme\google drive\cpsc 4377\code examples\l07.1.physics.basics\source\texture.h(6): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  SpriteComponent.cpp
+c:\users\sean orme\google drive\cpsc 4377\code examples\l07.1.physics.basics\source\graphicsdevice.h(16): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Source.cpp
+c:\users\sean orme\google drive\cpsc 4377\code examples\l07.1.physics.basics\source\source.cpp(14): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  PhysicsDevice.cpp
+c:\users\sean orme\google drive\cpsc 4377\code examples\l07.1.physics.basics\source\physicsdevice.h(3): fatal error C1083: Cannot open include file: 'Box2D/Box2D.h': No such file or directory
+  GraphicsDevice.cpp
+c:\users\sean orme\google drive\cpsc 4377\code examples\l07.1.physics.basics\source\graphicsdevice.h(16): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  GameObject.cpp
+c:\users\sean orme\google drive\cpsc 4377\code examples\l07.1.physics.basics\source\gameobject.h(7): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Component.cpp
+c:\users\sean orme\google drive\cpsc 4377\code examples\l07.1.physics.basics\source\gameobject.h(7): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  BodyComponent.cpp
+c:\users\sean orme\google drive\cpsc 4377\code examples\l07.1.physics.basics\source\physicsdevice.h(3): fatal error C1083: Cannot open include file: 'Box2D/Box2D.h': No such file or directory
+  Generating Code...

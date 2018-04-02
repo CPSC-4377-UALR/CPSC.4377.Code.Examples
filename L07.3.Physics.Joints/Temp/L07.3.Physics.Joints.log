@@ -1,0 +1,31 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.3.Physics.Joints\Temp\) contains files shared from another project (L07.1.Physics.Basics.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.3.Physics.Joints\ThirdParty\SDL2-2.0.7\lib\x86\libfreetype-6.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.3.Physics.Joints\ThirdParty\SDL2-2.0.7\lib\x86\SDL2.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.3.Physics.Joints\ThirdParty\SDL2-2.0.7\lib\x86\SDL2_ttf.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.3.Physics.Joints\ThirdParty\SDL2-2.0.7\lib\x86\zlib1.dll
+          4 file(s) copied.
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.3.Physics.Joints\ThirdParty\SDL2_image-2.0.2\lib\x86\libjpeg-9.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.3.Physics.Joints\ThirdParty\SDL2_image-2.0.2\lib\x86\libpng16-16.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.3.Physics.Joints\ThirdParty\SDL2_image-2.0.2\lib\x86\libtiff-5.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.3.Physics.Joints\ThirdParty\SDL2_image-2.0.2\lib\x86\libwebp-7.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.3.Physics.Joints\ThirdParty\SDL2_image-2.0.2\lib\x86\SDL2_image.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.3.Physics.Joints\ThirdParty\SDL2_image-2.0.2\lib\x86\zlib1.dll
+          6 file(s) copied.
+  Source.cpp
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l07.3.physics.joints\source\source.cpp(47): warning C4244: 'argument': conversion from 'float' to 'Uint32', possible loss of data
+     Creating library C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.3.Physics.Joints\Game\L07.3.Physics.Joints.lib and object C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.3.Physics.Joints\Game\L07.3.Physics.Joints.exp
+  L07.3.Physics.Joints.vcxproj -> C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.3.Physics.Joints\Game\L07.3.Physics.Joints.exe
+  L07.3.Physics.Joints.vcxproj -> C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.3.Physics.Joints\Game\L07.3.Physics.Joints.pdb (Partial PDB)
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.3.Physics.Joints\libfreetype-6.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.3.Physics.Joints\libjpeg-9.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.3.Physics.Joints\libpng16-16.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.3.Physics.Joints\libtiff-5.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.3.Physics.Joints\libwebp-7.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.3.Physics.Joints\SDL2.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.3.Physics.Joints\SDL2_image.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.3.Physics.Joints\SDL2_ttf.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.3.Physics.Joints\zlib1.dll
+          9 file(s) moved.
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.3.Physics.Joints\Assets\Fonts\impact.ttf -> C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.3.Physics.Joints\Game\Assets\Fonts\impact.ttf
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.3.Physics.Joints\Assets\Images\Ball.png -> C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.3.Physics.Joints\Game\Assets\Images\Ball.png
+  2 File(s) copied

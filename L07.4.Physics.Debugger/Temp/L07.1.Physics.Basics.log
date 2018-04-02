@@ -1,0 +1,30 @@
+﻿  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.1.Physics.Basics.Take.2\ThirdParty\SDL2-2.0.7\lib\x86\libfreetype-6.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.1.Physics.Basics.Take.2\ThirdParty\SDL2-2.0.7\lib\x86\SDL2.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.1.Physics.Basics.Take.2\ThirdParty\SDL2-2.0.7\lib\x86\SDL2_ttf.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.1.Physics.Basics.Take.2\ThirdParty\SDL2-2.0.7\lib\x86\zlib1.dll
+          4 file(s) copied.
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.1.Physics.Basics.Take.2\ThirdParty\SDL2_image-2.0.2\lib\x86\libjpeg-9.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.1.Physics.Basics.Take.2\ThirdParty\SDL2_image-2.0.2\lib\x86\libpng16-16.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.1.Physics.Basics.Take.2\ThirdParty\SDL2_image-2.0.2\lib\x86\libtiff-5.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.1.Physics.Basics.Take.2\ThirdParty\SDL2_image-2.0.2\lib\x86\libwebp-7.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.1.Physics.Basics.Take.2\ThirdParty\SDL2_image-2.0.2\lib\x86\SDL2_image.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.1.Physics.Basics.Take.2\ThirdParty\SDL2_image-2.0.2\lib\x86\zlib1.dll
+          6 file(s) copied.
+  GameObject.cpp
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l07.1.physics.basics.take.2\source\gameobject.cpp(126): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l07.1.physics.basics.take.2\source\gameobject.cpp(138): warning C4838: conversion from 'Uint32' to 'int' requires a narrowing conversion
+  L07.1.Physics.Basics.vcxproj -> C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.1.Physics.Basics.Take.2\Game\L07.1.Physics.Basics.exe
+  L07.1.Physics.Basics.vcxproj -> C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.1.Physics.Basics.Take.2\Game\L07.1.Physics.Basics.pdb (Partial PDB)
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.1.Physics.Basics.Take.2\libfreetype-6.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.1.Physics.Basics.Take.2\libjpeg-9.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.1.Physics.Basics.Take.2\libpng16-16.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.1.Physics.Basics.Take.2\libtiff-5.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.1.Physics.Basics.Take.2\libwebp-7.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.1.Physics.Basics.Take.2\SDL2.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.1.Physics.Basics.Take.2\SDL2_image.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.1.Physics.Basics.Take.2\SDL2_ttf.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.1.Physics.Basics.Take.2\zlib1.dll
+          9 file(s) moved.
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.1.Physics.Basics.Take.2\Assets\Fonts\impact.ttf -> C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.1.Physics.Basics.Take.2\Game\Assets\Fonts\impact.ttf
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.1.Physics.Basics.Take.2\Assets\Images\PlayerPaper.png -> C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.1.Physics.Basics.Take.2\Game\Assets\Images\PlayerPaper.png
+  2 File(s) copied

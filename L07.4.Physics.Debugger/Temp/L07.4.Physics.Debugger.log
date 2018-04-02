@@ -1,0 +1,37 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\Temp\) contains files shared from another project (L07.1.Physics.Basics.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\ThirdParty\SDL2-2.0.7\lib\x86\libfreetype-6.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\ThirdParty\SDL2-2.0.7\lib\x86\SDL2.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\ThirdParty\SDL2-2.0.7\lib\x86\SDL2_ttf.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\ThirdParty\SDL2-2.0.7\lib\x86\zlib1.dll
+          4 file(s) copied.
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\ThirdParty\SDL2_image-2.0.2\lib\x86\libjpeg-9.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\ThirdParty\SDL2_image-2.0.2\lib\x86\libpng16-16.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\ThirdParty\SDL2_image-2.0.2\lib\x86\libtiff-5.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\ThirdParty\SDL2_image-2.0.2\lib\x86\libwebp-7.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\ThirdParty\SDL2_image-2.0.2\lib\x86\SDL2_image.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\ThirdParty\SDL2_image-2.0.2\lib\x86\zlib1.dll
+          6 file(s) copied.
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\ThirdParty\SDL2_gfx-1.0.1\lib\x86\SDL2_gfx.dll
+          1 file(s) copied.
+  Box2DDebugDraw.cpp
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l07.4.physics.debugger\source\box2ddebugdraw.cpp(28): warning C4244: 'argument': conversion from 'float' to 'Sint16', possible loss of data
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l07.4.physics.debugger\source\box2ddebugdraw.cpp(31): warning C4244: 'argument': conversion from 'float' to 'Sint16', possible loss of data
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l07.4.physics.debugger\source\box2ddebugdraw.cpp(46): warning C4244: 'argument': conversion from 'float' to 'Sint16', possible loss of data
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l07.4.physics.debugger\source\box2ddebugdraw.cpp(49): warning C4244: 'argument': conversion from 'float' to 'Sint16', possible loss of data
+     Creating library C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\Game\L07.4.Physics.Debugger.lib and object C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\Game\L07.4.Physics.Debugger.exp
+  L07.4.Physics.Debugger.vcxproj -> C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\Game\L07.4.Physics.Debugger.exe
+  L07.4.Physics.Debugger.vcxproj -> C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\Game\L07.4.Physics.Debugger.pdb (Partial PDB)
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\libfreetype-6.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\libjpeg-9.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\libpng16-16.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\libtiff-5.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\libwebp-7.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\SDL2.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\SDL2_gfx.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\SDL2_image.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\SDL2_ttf.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\zlib1.dll
+         10 file(s) moved.
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\Assets\Fonts\impact.ttf -> C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\Game\Assets\Fonts\impact.ttf
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\Assets\Images\PlayerPaper.png -> C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\Game\Assets\Images\PlayerPaper.png
+  2 File(s) copied
