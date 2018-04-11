@@ -1,0 +1,28 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.1.NPC.Behavior.Tree\Temp\) contains files shared from another project (L05.1.Component.MegaMan.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.1.NPC.Behavior.Tree\ThirdParty\SDL2-2.0.7\lib\x86\libfreetype-6.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.1.NPC.Behavior.Tree\ThirdParty\SDL2-2.0.7\lib\x86\SDL2.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.1.NPC.Behavior.Tree\ThirdParty\SDL2-2.0.7\lib\x86\SDL2_ttf.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.1.NPC.Behavior.Tree\ThirdParty\SDL2-2.0.7\lib\x86\zlib1.dll
+          4 file(s) copied.
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.1.NPC.Behavior.Tree\ThirdParty\SDL2_image-2.0.2\lib\x86\libjpeg-9.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.1.NPC.Behavior.Tree\ThirdParty\SDL2_image-2.0.2\lib\x86\libpng16-16.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.1.NPC.Behavior.Tree\ThirdParty\SDL2_image-2.0.2\lib\x86\libtiff-5.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.1.NPC.Behavior.Tree\ThirdParty\SDL2_image-2.0.2\lib\x86\libwebp-7.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.1.NPC.Behavior.Tree\ThirdParty\SDL2_image-2.0.2\lib\x86\SDL2_image.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.1.NPC.Behavior.Tree\ThirdParty\SDL2_image-2.0.2\lib\x86\zlib1.dll
+          6 file(s) copied.
+  UserInputComponent.cpp
+  Timer.cpp
+  Texture.cpp
+  Task.cpp
+c:\users\ormeskirk\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\task.cpp(6): error C2512: 'Component': no appropriate default constructor available
+  c:\users\ormeskirk\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\component.h(7): note: see declaration of 'Component'
+  SpriteComponent.cpp
+c:\users\ormeskirk\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\spritecomponent.cpp(76): warning C4838: conversion from 'Uint32' to 'int' requires a narrowing conversion
+  Source.cpp
+c:\users\ormeskirk\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\source.cpp(46): error C2660: 'GameObject::Initialize': function does not take 2 arguments
+c:\users\ormeskirk\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\source.cpp(49): error C2660: 'GameObject::Initialize': function does not take 2 arguments
+  GraphicsDevice.cpp
+  GameObject.cpp
+  Component.cpp
+  Generating Code...

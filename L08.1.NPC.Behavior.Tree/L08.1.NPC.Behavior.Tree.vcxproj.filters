@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{09788640-3546-4697-8034-ebabb2a40d77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Tasks">
+      <UniqueIdentifier>{365ba535-3855-45a5-9bdc-0a0c00457b8c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\GraphicsDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UserInputComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpriteComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Component.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task.cpp">
+      <Filter>Components\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TurnToward.cpp">
+      <Filter>Components\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MoveToward.cpp">
+      <Filter>Components\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Spin.cpp">
+      <Filter>Components\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NPC.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sequence.cpp">
+      <Filter>Components\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Blackboard.cpp">
+      <Filter>Components\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Selector.cpp">
+      <Filter>Components\Tasks</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\GraphicsDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UserInputComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SpriteComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Component.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task.h">
+      <Filter>Components\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TurnToward.h">
+      <Filter>Components\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MoveToward.h">
+      <Filter>Components\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Spin.h">
+      <Filter>Components\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NPC.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sequence.h">
+      <Filter>Components\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Blackboard.h">
+      <Filter>Components\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Selector.h">
+      <Filter>Components\Tasks</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
