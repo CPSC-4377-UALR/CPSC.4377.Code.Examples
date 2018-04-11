@@ -11,12 +11,12 @@ public:
 	NPC(GameObject* owner);
 	~NPC();
 
-	void Initialize(Task* behaviorTree, Blackboard* blackboard);
+	void Initialize();
 
 	void Start() {}
 	void Update();
 	void Finish();
 private:
-	Task * behaviorTree;
+	BehaviorTree* behaviorTree;
 };
 

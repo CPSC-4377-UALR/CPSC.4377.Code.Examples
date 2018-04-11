@@ -11,6 +11,7 @@ class Component;
 class Sprite;
 class UserInput;
 class GraphicsDevice;
+class Blackboard;
 
 class GameObject
 {

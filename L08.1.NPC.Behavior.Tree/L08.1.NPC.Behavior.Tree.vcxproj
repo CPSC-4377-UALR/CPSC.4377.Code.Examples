@@ -129,11 +129,14 @@ xcopy "$(ProjectDir)Assets" "$(ProjectDir)Game\Assets" /E /I /F /Y</Command>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Source\BehaviorTree.h" />
     <ClInclude Include="Source\Blackboard.h" />
+    <ClInclude Include="Source\BranchTask.h" />
     <ClInclude Include="Source\Component.h" />
     <ClInclude Include="Source\Constants.h" />
     <ClInclude Include="Source\GameObject.h" />
     <ClInclude Include="Source\GraphicsDevice.h" />
+    <ClInclude Include="Source\LeafTask.h" />
     <ClInclude Include="Source\MoveToward.h" />
     <ClInclude Include="Source\NPC.h" />
     <ClInclude Include="Source\Selector.h" />
@@ -147,10 +150,13 @@ xcopy "$(ProjectDir)Assets" "$(ProjectDir)Game\Assets" /E /I /F /Y</Command>
     <ClInclude Include="Source\UserInputComponent.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Source\BehaviorTree.cpp" />
     <ClCompile Include="Source\Blackboard.cpp" />
+    <ClCompile Include="Source\BranchTask.cpp" />
     <ClCompile Include="Source\Component.cpp" />
     <ClCompile Include="Source\GameObject.cpp" />
     <ClCompile Include="Source\GraphicsDevice.cpp" />
+    <ClCompile Include="Source\LeafTask.cpp" />
     <ClCompile Include="Source\MoveToward.cpp" />
     <ClCompile Include="Source\NPC.cpp" />
     <ClCompile Include="Source\Selector.cpp" />

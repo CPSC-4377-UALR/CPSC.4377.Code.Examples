@@ -69,6 +69,15 @@
     <ClCompile Include="Source\Selector.cpp">
       <Filter>Components\Tasks</Filter>
     </ClCompile>
+    <ClCompile Include="Source\BehaviorTree.cpp">
+      <Filter>Components\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BranchTask.cpp">
+      <Filter>Components\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LeafTask.cpp">
+      <Filter>Components\Tasks</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\GraphicsDevice.h">
@@ -117,6 +126,15 @@
       <Filter>Components\Tasks</Filter>
     </ClInclude>
     <ClInclude Include="Source\Selector.h">
+      <Filter>Components\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BehaviorTree.h">
+      <Filter>Components\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BranchTask.h">
+      <Filter>Components\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LeafTask.h">
       <Filter>Components\Tasks</Filter>
     </ClInclude>
   </ItemGroup>

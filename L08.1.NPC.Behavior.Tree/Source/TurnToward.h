@@ -1,10 +1,19 @@
 #pragma once
-#include "Task.h"
+#include "LeafTask.h"
+#include "Constants.h"
 class TurnToward :
-	public Task
+	public LeafTask
 {
 public:
 	TurnToward();
 	~TurnToward();
+	bool initiailize(bool* conditional, GAME_VEC* goal);
+
+	void run(); //contains the update logic of the task. The actual implementation MUST call running(), success() or fail() exactly once.
+	
+
+private:
+	bool* conditional;
+	GAME_VEC* goal;
 };
 

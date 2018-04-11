@@ -3,6 +3,7 @@
 #include "Texture.h"
 #include "Component.h"
 #include "SpriteComponent.h"
+#include "NPC.h"
 #include "UserInputComponent.h"
 
 GameObject::GameObject()
@@ -16,6 +17,7 @@ GameObject::~GameObject()
 
 bool GameObject::Initialize(GraphicsDevice * gDevice, std::string type, std::string path)
 {
+
 	Sprite* sprite = new Sprite(this);
 	sprite->Initialize(gDevice, path);
 	AddComponent(sprite);
@@ -29,7 +31,9 @@ bool GameObject::Initialize(GraphicsDevice * gDevice, std::string type, std::str
 	}
 	else
 	{
-
+		NPC* npc = new NPC(this);
+		npc->Initialize();
+		AddComponent(npc);
 	}
 	
 	

@@ -1,10 +1,17 @@
 #pragma once
-#include "c:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.1.NPC.Behavior.Tree\Source\Task.h"
+#include "LeafTask.h"
+#include "Component.h"
+#include "GameObject.h"
+#include "SpriteComponent.h"
+
 class Spin :
-	public Task
+	public LeafTask
 {
 public:
 	Spin();
 	~Spin();
+	bool initiailize();
+
+	void run(); //contains the update logic of the task. The actual implementation MUST call running(), success() or fail() exactly once.
 };
 

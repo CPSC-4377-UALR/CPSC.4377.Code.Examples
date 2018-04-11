@@ -8,7 +8,7 @@ class UserInput : public Component
 public:
 	UserInput(GameObject*);
 	~UserInput();
-	void Initialize(Blackboard*);
+	void Initialize();
 	void HandleEvent(SDL_Event* event);
 
 	void Start();

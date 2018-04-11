@@ -2,6 +2,7 @@
 #include "SpriteComponent.h"
 #include "GameObject.h"
 #include "Blackboard.h"
+#include "Task.h"
 
 UserInput::UserInput(GameObject * owner) :Component(owner)
 {
@@ -12,10 +13,10 @@ UserInput::~UserInput()
 {
 }
 
-void UserInput::Initialize(Blackboard* blackboard)
+void UserInput::Initialize()
 {
 	//puts the memory location of the player's position in the blackboar, so that it will always be upated!
-	blackboard->playerPosition = &(owner->GetComponent<Sprite>()->position);
+	Task::blackboard->playerPosition = &(owner->GetComponent<Sprite>()->position);
 }
 
 void UserInput::HandleEvent(SDL_Event * event)

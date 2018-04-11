@@ -11,11 +11,14 @@
 */
 
 #include <iostream>
+#include <vector>
 #include "SDL.h"
 #include "GraphicsDevice.h"
 #include "Timer.h"
 #include "GameObject.h"
 #include "SpriteComponent.h"
+#include "Blackboard.h"
+#include "Task.h"
 
 int main(int argc, char *argv[])
 {
@@ -40,13 +43,18 @@ int main(int argc, char *argv[])
 		printf("Frame Timer could not initialize! SDL_Error: %s\n", SDL_GetError());
 		exit(1);
 	}
-
+	
+	std::vector<GameObject*> objects;
 	//Initialize Game Object
 	GameObject* object = new GameObject();
 	object->Initialize(gDevice, "player", "./Assets/Images/Megaman.png");
-	
+	objects.push_back(object);
 	GameObject* object2 = new GameObject();
 	object2->Initialize(gDevice, "enemy", "./Assets/Images/Megaman.png");
+	objects.push_back(object2);
+
+	Task::blackboard = new Blackboard();
+	Task::blackboard->objects = objects;
 	//Initialize Termination Criteria
 	bool quit = false;
 
