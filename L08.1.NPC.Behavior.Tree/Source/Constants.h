@@ -1,9 +1,9 @@
 #ifndef CONSTANTS_H
 #define CONSTANTS_H
-
+const float PI = 3.14159f;
 struct GAME_VEC {
-	int x;
-	int y;
+	float x;
+	float y;
 };
 //Sprite ID Update Constants
 const int ANIM_LAG = 5;

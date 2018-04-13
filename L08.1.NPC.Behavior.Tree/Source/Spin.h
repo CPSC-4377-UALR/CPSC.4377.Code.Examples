@@ -9,6 +9,7 @@ class Spin :
 {
 public:
 	Spin();
+	Spin(BehaviorTree* tree, Task* control);
 	~Spin();
 	bool initiailize();
 

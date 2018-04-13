@@ -6,6 +6,10 @@ Spin::Spin()
 {
 }
 
+Spin::Spin(BehaviorTree * tree, Task * control) :LeafTask(tree, control)
+{
+}
+
 
 Spin::~Spin()
 {

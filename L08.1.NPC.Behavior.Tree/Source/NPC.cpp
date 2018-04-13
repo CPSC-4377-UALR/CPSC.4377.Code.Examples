@@ -35,30 +35,30 @@ void NPC::Initialize()
 	behaviorTree = new BehaviorTree(this);
 	
 		//root of tree is a selector
-		Selector* decideBehavior = new Selector();
+		Selector* decideBehavior = new Selector(behaviorTree,nullptr);
 		behaviorTree->addChild(decideBehavior);
 
 		//add sequences (in order) to selector
-		Sequence* chaseEnemy = new Sequence();
+		Sequence* chaseEnemy = new Sequence(behaviorTree,decideBehavior);
 		decideBehavior->addChild(chaseEnemy);
 
 			//add leaf tasks to sequence
-			TurnToward* turnTowardEnemy = new TurnToward();
+			TurnToward* turnTowardEnemy = new TurnToward(behaviorTree, chaseEnemy);
 			chaseEnemy->addChild(turnTowardEnemy);
 
-			MoveToward* moveTowardEnemy = new MoveToward();
+			MoveToward* moveTowardEnemy = new MoveToward(behaviorTree, chaseEnemy);
 			chaseEnemy->addChild(moveTowardEnemy);
 		
-		Sequence* returnToOrigin = new Sequence();
+		Sequence* returnToOrigin = new Sequence(behaviorTree, decideBehavior);
 		decideBehavior->addChild(returnToOrigin);
 			//add leaf tasks to sequence
-			TurnToward* turnTowardEnemy = new TurnToward();
+			TurnToward* turnTowardEnemy = new TurnToward(behaviorTree, returnToOrigin);
 			returnToOrigin->addChild(turnTowardEnemy);
 
 			MoveToward* moveTowardEnemy = new MoveToward();
 			returnToOrigin->addChild(moveTowardEnemy);
 			
-		Spin* patrol = new Spin();
+		Spin* patrol = new Spin(behaviorTree, decideBehavior);
 		patrol->initiailize();
 		decideBehavior->addChild(patrol);
 		

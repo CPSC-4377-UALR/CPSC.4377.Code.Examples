@@ -2,7 +2,11 @@
 
 
 
-LeafTask::LeafTask()
+LeafTask::LeafTask():Task()
+{
+}
+
+LeafTask::LeafTask(BehaviorTree * tree, Task * control) : Task(tree, control)
 {
 }
 

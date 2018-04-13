@@ -6,6 +6,7 @@ class TurnToward :
 {
 public:
 	TurnToward();
+	TurnToward(BehaviorTree* tree, Task* control);
 	~TurnToward();
 	bool initiailize(bool* conditional, GAME_VEC* goal);
 

@@ -5,6 +5,7 @@ class LeafTask :
 {
 public:
 	LeafTask();
+	LeafTask(BehaviorTree* tree, Task* control);
 	~LeafTask();
 		
 protected:

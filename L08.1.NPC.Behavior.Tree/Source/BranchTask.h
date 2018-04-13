@@ -5,7 +5,9 @@ class BranchTask :
 {
 public:
 	BranchTask();
+	BranchTask(BehaviorTree* tree, Task* control);
 	~BranchTask();
+	void run();//contains the update logic of the task. The actual implementation MUST call running(), success() or fail() exactly once.
 	void resetTask();
 	
 protected:
