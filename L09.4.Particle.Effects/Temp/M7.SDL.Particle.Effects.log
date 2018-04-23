@@ -1,0 +1,47 @@
+﻿Build started 12/2/2015 11:52:53 AM.
+     1>Project "C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\M7.SDL.Particle.Effects.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         copy "C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\ThirdParty\SDL2-2.0.3\lib\x86\*.dll" "C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\"
+         copy "C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\ThirdParty\SDL2_image-2.0.0\lib\x86\*.dll" "C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\"
+         :VCEnd
+         C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\ThirdParty\SDL2-2.0.3\lib\x86\SDL2.dll
+                 1 file(s) copied.
+         C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\ThirdParty\SDL2_image-2.0.0\lib\x86\libjpeg-9.dll
+         C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\ThirdParty\SDL2_image-2.0.0\lib\x86\libpng16-16.dll
+         C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\ThirdParty\SDL2_image-2.0.0\lib\x86\libtiff-5.dll
+         C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\ThirdParty\SDL2_image-2.0.0\lib\x86\libwebp-4.dll
+         C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\ThirdParty\SDL2_image-2.0.0\lib\x86\SDL2_image.dll
+         C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\ThirdParty\SDL2_image-2.0.0\lib\x86\zlib1.dll
+                 6 file(s) copied.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\Temp\\" /Fd"C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\Temp\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source\Source.cpp
+         Source.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\Game\M7.SDL.Particle.Effects.exe" /INCREMENTAL /NOLOGO SDL2.lib SDL2main.lib SDL2_image.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\Game\M7.SDL.Particle.Effects.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\Game\M7.SDL.Particle.Effects.lib" /MACHINE:X86 "C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\Temp\GameObject.obj"
+         "C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\Temp\GraphicsDevice.obj"
+         "C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\Temp\Source.obj"
+         "C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\Temp\Texture.obj"
+         "C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\Temp\Timer.obj"
+         M7.SDL.Particle.Effects.vcxproj -> C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\Game\M7.SDL.Particle.Effects.exe
+       PostBuildEvent:
+         move "C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\*.dll" "C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\Game";
+         xcopy "Assets" "C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\Game\Assets" /E /I /F /Y
+         :VCEnd
+         C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\libjpeg-9.dll
+         C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\libpng16-16.dll
+         C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\libtiff-5.dll
+         C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\libwebp-4.dll
+         C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\SDL2.dll
+         C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\SDL2_image.dll
+         C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\zlib1.dll
+                 7 file(s) moved.
+         C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\Assets\Images\paint_dot.png -> C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\Game\Assets\Images\paint_dot.png
+         C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\Assets\Sounds\beat.wav -> C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\Game\Assets\Sounds\beat.wav
+         C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\Assets\Sounds\high.wav -> C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\Game\Assets\Sounds\high.wav
+         C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\Assets\Sounds\scratch.wav -> C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\Game\Assets\Sounds\scratch.wav
+         4 File(s) copied
+     1>Done Building Project "C:\Users\kabush\Documents\Visual Studio 2012\Projects\CPSC.4377.SDL2.Module.Examples\M7.SDL.Particle.Effects\M7.SDL.Particle.Effects.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.02

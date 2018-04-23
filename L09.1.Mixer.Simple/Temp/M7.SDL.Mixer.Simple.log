@@ -1,0 +1,52 @@
+﻿  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\ThirdParty\SDL2-2.0.7\lib\x86\libfreetype-6.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\ThirdParty\SDL2-2.0.7\lib\x86\SDL2.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\ThirdParty\SDL2-2.0.7\lib\x86\SDL2_ttf.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\ThirdParty\SDL2-2.0.7\lib\x86\zlib1.dll
+          4 file(s) copied.
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\ThirdParty\SDL2_image-2.0.2\lib\x86\libjpeg-9.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\ThirdParty\SDL2_image-2.0.2\lib\x86\libpng16-16.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\ThirdParty\SDL2_image-2.0.2\lib\x86\libtiff-5.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\ThirdParty\SDL2_image-2.0.2\lib\x86\libwebp-7.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\ThirdParty\SDL2_image-2.0.2\lib\x86\SDL2_image.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\ThirdParty\SDL2_image-2.0.2\lib\x86\zlib1.dll
+          6 file(s) copied.
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\ThirdParty\SDL2_mixer-2.0.0\lib\x86\libFLAC-8.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\ThirdParty\SDL2_mixer-2.0.0\lib\x86\libmikmod-2.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\ThirdParty\SDL2_mixer-2.0.0\lib\x86\libmodplug-1.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\ThirdParty\SDL2_mixer-2.0.0\lib\x86\libogg-0.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\ThirdParty\SDL2_mixer-2.0.0\lib\x86\libvorbis-0.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\ThirdParty\SDL2_mixer-2.0.0\lib\x86\libvorbisfile-3.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\ThirdParty\SDL2_mixer-2.0.0\lib\x86\SDL2_mixer.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\ThirdParty\SDL2_mixer-2.0.0\lib\x86\smpeg2.dll
+          8 file(s) copied.
+  Timer.cpp
+  Texture.cpp
+  Source.cpp
+  GraphicsDevice.cpp
+  GameObject.cpp
+  Generating Code...
+     Creating library C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\Game\L09.1.Mixer.Simple.lib and object C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\Game\L09.1.Mixer.Simple.exp
+  M7.SDL.Mixer.Simple.vcxproj -> C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\Game\L09.1.Mixer.Simple.exe
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\libFLAC-8.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\libfreetype-6.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\libjpeg-9.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\libmikmod-2.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\libmodplug-1.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\libogg-0.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\libpng16-16.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\libtiff-5.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\libvorbis-0.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\libvorbisfile-3.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\libwebp-7.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\SDL2.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\SDL2_image.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\SDL2_mixer.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\SDL2_ttf.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\smpeg2.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\zlib1.dll
+         17 file(s) moved.
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\Assets\Images\PlayerPaper.png -> C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\Game\Assets\Images\PlayerPaper.png
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\Assets\Sounds\beat.wav -> C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\Game\Assets\Sounds\beat.wav
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\Assets\Sounds\high.wav -> C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\Game\Assets\Sounds\high.wav
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\Assets\Sounds\scratch.wav -> C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\Game\Assets\Sounds\scratch.wav
+  4 File(s) copied

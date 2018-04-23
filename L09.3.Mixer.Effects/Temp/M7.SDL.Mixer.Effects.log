@@ -1,0 +1,44 @@
+﻿  C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\ThirdParty\SDL2-2.0.3\lib\x86\SDL2.dll
+          1 file(s) copied.
+  C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\ThirdParty\SDL2_image-2.0.0\lib\x86\libjpeg-9.dll
+  C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\ThirdParty\SDL2_image-2.0.0\lib\x86\libpng16-16.dll
+  C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\ThirdParty\SDL2_image-2.0.0\lib\x86\libtiff-5.dll
+  C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\ThirdParty\SDL2_image-2.0.0\lib\x86\libwebp-4.dll
+  C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\ThirdParty\SDL2_image-2.0.0\lib\x86\SDL2_image.dll
+  C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\ThirdParty\SDL2_image-2.0.0\lib\x86\zlib1.dll
+          6 file(s) copied.
+  C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\ThirdParty\SDL2_mixer-2.0.0\lib\x86\libFLAC-8.dll
+  C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\ThirdParty\SDL2_mixer-2.0.0\lib\x86\libmikmod-2.dll
+  C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\ThirdParty\SDL2_mixer-2.0.0\lib\x86\libmodplug-1.dll
+  C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\ThirdParty\SDL2_mixer-2.0.0\lib\x86\libogg-0.dll
+  C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\ThirdParty\SDL2_mixer-2.0.0\lib\x86\libvorbis-0.dll
+  C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\ThirdParty\SDL2_mixer-2.0.0\lib\x86\libvorbisfile-3.dll
+  C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\ThirdParty\SDL2_mixer-2.0.0\lib\x86\SDL2_mixer.dll
+  C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\ThirdParty\SDL2_mixer-2.0.0\lib\x86\smpeg2.dll
+          8 file(s) copied.
+  Timer.cpp
+  Source.cpp
+  GraphicsDevice.cpp
+  Generating Code...
+  M7.SDL.Mixer.Effects.vcxproj -> C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\Game\M7.SDL.Mixer.Effects.exe
+  C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\libFLAC-8.dll
+  C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\libjpeg-9.dll
+  C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\libmikmod-2.dll
+  C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\libmodplug-1.dll
+  C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\libogg-0.dll
+  C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\libpng16-16.dll
+  C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\libtiff-5.dll
+  C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\libvorbis-0.dll
+  C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\libvorbisfile-3.dll
+  C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\libwebp-4.dll
+  C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\SDL2.dll
+  C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\SDL2_image.dll
+  C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\SDL2_mixer.dll
+  C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\smpeg2.dll
+  C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\zlib1.dll
+         15 file(s) moved.
+  C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\Assets\Images\PlayerPaper.png -> C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\Game\Assets\Images\PlayerPaper.png
+  C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\Assets\Sounds\beat.wav -> C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\Game\Assets\Sounds\beat.wav
+  C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\Assets\Sounds\high.wav -> C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\Game\Assets\Sounds\high.wav
+  C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\Assets\Sounds\scratch.wav -> C:\Users\Administrator\Google Drive\Teaching\CPSC 4377\Dr. Bush's Stuff\Course.Modules\Code.Examples\CPSC.4377.SDL2.Module.Examples\M7.SDL.Mixer.Effects\Game\Assets\Sounds\scratch.wav
+  4 File(s) copied

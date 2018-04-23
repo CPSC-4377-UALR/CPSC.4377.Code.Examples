@@ -35,6 +35,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "L07.4.Physics.Debugger", "L
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "L08.1.NPC.Behavior.Tree", "L08.1.NPC.Behavior.Tree\L08.1.NPC.Behavior.Tree.vcxproj", "{7EF6AFCB-E431-4C48-BC4D-D78B3063BA30}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "L09.1.Mixer.Simple", "L09.1.Mixer.Simple\M7.SDL.Mixer.Simple.vcxproj", "{8FDB64FF-E5EB-4C7E-8AAA-CDB79E2DB993}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "L09.2.Mixer.Music", "L09.2.Mixer.Music\L09.2.Mixer.Music.vcxproj", "{9C3DB457-CDC9-47CF-8B1C-0F5808B74075}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "L09.3.Mixer.Effects", "L09.3.Mixer.Effects\L09.3.Mixer.Effects.vcxproj", "{89C29EBF-AB21-44DC-9791-392A6CF78AAB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "L09.4.Particle.Effects", "L09.4.Particle.Effects\L09.4.Particle.Effects.vcxproj", "{6C85A75D-380A-45E3-97A5-0BA20B40D434}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -165,6 +173,30 @@ Global
 		{7EF6AFCB-E431-4C48-BC4D-D78B3063BA30}.Release|x64.Build.0 = Release|x64
 		{7EF6AFCB-E431-4C48-BC4D-D78B3063BA30}.Release|x86.ActiveCfg = Release|Win32
 		{7EF6AFCB-E431-4C48-BC4D-D78B3063BA30}.Release|x86.Build.0 = Release|Win32
+		{8FDB64FF-E5EB-4C7E-8AAA-CDB79E2DB993}.Debug|x64.ActiveCfg = Debug|Win32
+		{8FDB64FF-E5EB-4C7E-8AAA-CDB79E2DB993}.Debug|x86.ActiveCfg = Debug|Win32
+		{8FDB64FF-E5EB-4C7E-8AAA-CDB79E2DB993}.Debug|x86.Build.0 = Debug|Win32
+		{8FDB64FF-E5EB-4C7E-8AAA-CDB79E2DB993}.Release|x64.ActiveCfg = Release|Win32
+		{8FDB64FF-E5EB-4C7E-8AAA-CDB79E2DB993}.Release|x86.ActiveCfg = Release|Win32
+		{8FDB64FF-E5EB-4C7E-8AAA-CDB79E2DB993}.Release|x86.Build.0 = Release|Win32
+		{9C3DB457-CDC9-47CF-8B1C-0F5808B74075}.Debug|x64.ActiveCfg = Debug|Win32
+		{9C3DB457-CDC9-47CF-8B1C-0F5808B74075}.Debug|x86.ActiveCfg = Debug|Win32
+		{9C3DB457-CDC9-47CF-8B1C-0F5808B74075}.Debug|x86.Build.0 = Debug|Win32
+		{9C3DB457-CDC9-47CF-8B1C-0F5808B74075}.Release|x64.ActiveCfg = Release|Win32
+		{9C3DB457-CDC9-47CF-8B1C-0F5808B74075}.Release|x86.ActiveCfg = Release|Win32
+		{9C3DB457-CDC9-47CF-8B1C-0F5808B74075}.Release|x86.Build.0 = Release|Win32
+		{89C29EBF-AB21-44DC-9791-392A6CF78AAB}.Debug|x64.ActiveCfg = Debug|Win32
+		{89C29EBF-AB21-44DC-9791-392A6CF78AAB}.Debug|x86.ActiveCfg = Debug|Win32
+		{89C29EBF-AB21-44DC-9791-392A6CF78AAB}.Debug|x86.Build.0 = Debug|Win32
+		{89C29EBF-AB21-44DC-9791-392A6CF78AAB}.Release|x64.ActiveCfg = Release|Win32
+		{89C29EBF-AB21-44DC-9791-392A6CF78AAB}.Release|x86.ActiveCfg = Release|Win32
+		{89C29EBF-AB21-44DC-9791-392A6CF78AAB}.Release|x86.Build.0 = Release|Win32
+		{6C85A75D-380A-45E3-97A5-0BA20B40D434}.Debug|x64.ActiveCfg = Debug|Win32
+		{6C85A75D-380A-45E3-97A5-0BA20B40D434}.Debug|x86.ActiveCfg = Debug|Win32
+		{6C85A75D-380A-45E3-97A5-0BA20B40D434}.Debug|x86.Build.0 = Debug|Win32
+		{6C85A75D-380A-45E3-97A5-0BA20B40D434}.Release|x64.ActiveCfg = Release|Win32
+		{6C85A75D-380A-45E3-97A5-0BA20B40D434}.Release|x86.ActiveCfg = Release|Win32
+		{6C85A75D-380A-45E3-97A5-0BA20B40D434}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
