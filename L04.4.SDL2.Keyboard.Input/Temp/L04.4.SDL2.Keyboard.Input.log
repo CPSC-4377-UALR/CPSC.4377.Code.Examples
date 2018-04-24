@@ -1,0 +1,26 @@
+﻿  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L04.4.SDL2.Keyboard.Input\ThirdParty\SDL2-2.0.7\lib\x86\libfreetype-6.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L04.4.SDL2.Keyboard.Input\ThirdParty\SDL2-2.0.7\lib\x86\SDL2.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L04.4.SDL2.Keyboard.Input\ThirdParty\SDL2-2.0.7\lib\x86\SDL2_ttf.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L04.4.SDL2.Keyboard.Input\ThirdParty\SDL2-2.0.7\lib\x86\zlib1.dll
+          4 file(s) copied.
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L04.4.SDL2.Keyboard.Input\ThirdParty\SDL2_image-2.0.2\lib\x86\libjpeg-9.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L04.4.SDL2.Keyboard.Input\ThirdParty\SDL2_image-2.0.2\lib\x86\libpng16-16.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L04.4.SDL2.Keyboard.Input\ThirdParty\SDL2_image-2.0.2\lib\x86\libtiff-5.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L04.4.SDL2.Keyboard.Input\ThirdParty\SDL2_image-2.0.2\lib\x86\libwebp-7.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L04.4.SDL2.Keyboard.Input\ThirdParty\SDL2_image-2.0.2\lib\x86\SDL2_image.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L04.4.SDL2.Keyboard.Input\ThirdParty\SDL2_image-2.0.2\lib\x86\zlib1.dll
+          6 file(s) copied.
+  GameObject.cpp
+  L04.4.SDL2.Keyboard.Input.vcxproj -> C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L04.4.SDL2.Keyboard.Input\Game\L04.4.SDL2.Keyboard.Input.exe
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L04.4.SDL2.Keyboard.Input\libfreetype-6.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L04.4.SDL2.Keyboard.Input\libjpeg-9.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L04.4.SDL2.Keyboard.Input\libpng16-16.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L04.4.SDL2.Keyboard.Input\libtiff-5.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L04.4.SDL2.Keyboard.Input\libwebp-7.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L04.4.SDL2.Keyboard.Input\SDL2.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L04.4.SDL2.Keyboard.Input\SDL2_image.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L04.4.SDL2.Keyboard.Input\SDL2_ttf.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L04.4.SDL2.Keyboard.Input\zlib1.dll
+          9 file(s) moved.
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L04.4.SDL2.Keyboard.Input\Assets\Images\PlayerPaper.png -> C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L04.4.SDL2.Keyboard.Input\Game\Assets\Images\PlayerPaper.png
+  1 File(s) copied

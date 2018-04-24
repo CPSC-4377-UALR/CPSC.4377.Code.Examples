@@ -1,31 +1,28 @@
-﻿  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\ThirdParty\SDL2-2.0.7\lib\x86\libfreetype-6.dll
-  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\ThirdParty\SDL2-2.0.7\lib\x86\SDL2.dll
-  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\ThirdParty\SDL2-2.0.7\lib\x86\SDL2_ttf.dll
-  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\ThirdParty\SDL2-2.0.7\lib\x86\zlib1.dll
+﻿  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\ThirdParty\SDL2-2.0.7\lib\x86\libfreetype-6.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\ThirdParty\SDL2-2.0.7\lib\x86\SDL2.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\ThirdParty\SDL2-2.0.7\lib\x86\SDL2_ttf.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\ThirdParty\SDL2-2.0.7\lib\x86\zlib1.dll
           4 file(s) copied.
-  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\ThirdParty\SDL2_image-2.0.2\lib\x86\libjpeg-9.dll
-  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\ThirdParty\SDL2_image-2.0.2\lib\x86\libpng16-16.dll
-  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\ThirdParty\SDL2_image-2.0.2\lib\x86\libtiff-5.dll
-  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\ThirdParty\SDL2_image-2.0.2\lib\x86\libwebp-7.dll
-  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\ThirdParty\SDL2_image-2.0.2\lib\x86\SDL2_image.dll
-  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\ThirdParty\SDL2_image-2.0.2\lib\x86\zlib1.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\ThirdParty\SDL2_image-2.0.2\lib\x86\libjpeg-9.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\ThirdParty\SDL2_image-2.0.2\lib\x86\libpng16-16.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\ThirdParty\SDL2_image-2.0.2\lib\x86\libtiff-5.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\ThirdParty\SDL2_image-2.0.2\lib\x86\libwebp-7.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\ThirdParty\SDL2_image-2.0.2\lib\x86\SDL2_image.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\ThirdParty\SDL2_image-2.0.2\lib\x86\zlib1.dll
           6 file(s) copied.
-  Source.cpp
-c:\users\sean orme\documents\github\cpsc.4377.code.examples\l09.4.particle.effects\source\source.cpp(31): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-     Creating library C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\Game\L09.4.Particle.Effects.lib and object C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\Game\L09.4.Particle.Effects.exp
-  L09.4.Particle.Effects.vcxproj -> C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\Game\L09.4.Particle.Effects.exe
-  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\libfreetype-6.dll
-  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\libjpeg-9.dll
-  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\libpng16-16.dll
-  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\libtiff-5.dll
-  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\libwebp-7.dll
-  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\SDL2.dll
-  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\SDL2_image.dll
-  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\SDL2_ttf.dll
-  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\zlib1.dll
+  L09.4.Particle.Effects.vcxproj -> C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\Game\L09.4.Particle.Effects.exe
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\libfreetype-6.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\libjpeg-9.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\libpng16-16.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\libtiff-5.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\libwebp-7.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\SDL2.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\SDL2_image.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\SDL2_ttf.dll
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\zlib1.dll
           9 file(s) moved.
-  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\Assets\Images\paint_dot.png -> C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\Game\Assets\Images\paint_dot.png
-  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\Assets\Sounds\beat.wav -> C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\Game\Assets\Sounds\beat.wav
-  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\Assets\Sounds\high.wav -> C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\Game\Assets\Sounds\high.wav
-  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\Assets\Sounds\scratch.wav -> C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\Game\Assets\Sounds\scratch.wav
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\Assets\Images\paint_dot.png -> C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\Game\Assets\Images\paint_dot.png
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\Assets\Sounds\beat.wav -> C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\Game\Assets\Sounds\beat.wav
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\Assets\Sounds\high.wav -> C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\Game\Assets\Sounds\high.wav
+  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\Assets\Sounds\scratch.wav -> C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L09.4.Particle.Effects\Game\Assets\Sounds\scratch.wav
   4 File(s) copied

@@ -43,6 +43,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "L09.3.Mixer.Effects", "L09.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "L09.4.Particle.Effects", "L09.4.Particle.Effects\L09.4.Particle.Effects.vcxproj", "{6C85A75D-380A-45E3-97A5-0BA20B40D434}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "L04.4.SDL2.Keyboard.Input", "L04.4.SDL2.Keyboard.Input\L04.4.SDL2.Keyboard.Input.vcxproj", "{241B1080-9468-414F-BDB9-7C1C63B6666C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "L08.2.NPC.Steering.Behavior", "L08.2.NPC.Steering.Behavior\L08.2.NPC.Steering.Behavior.vcxproj", "{9B6BFEA8-2E1D-4EC2-A56B-6FEF120D5937}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -197,6 +201,18 @@ Global
 		{6C85A75D-380A-45E3-97A5-0BA20B40D434}.Release|x64.ActiveCfg = Release|Win32
 		{6C85A75D-380A-45E3-97A5-0BA20B40D434}.Release|x86.ActiveCfg = Release|Win32
 		{6C85A75D-380A-45E3-97A5-0BA20B40D434}.Release|x86.Build.0 = Release|Win32
+		{241B1080-9468-414F-BDB9-7C1C63B6666C}.Debug|x64.ActiveCfg = Debug|Win32
+		{241B1080-9468-414F-BDB9-7C1C63B6666C}.Debug|x86.ActiveCfg = Debug|Win32
+		{241B1080-9468-414F-BDB9-7C1C63B6666C}.Debug|x86.Build.0 = Debug|Win32
+		{241B1080-9468-414F-BDB9-7C1C63B6666C}.Release|x64.ActiveCfg = Release|Win32
+		{241B1080-9468-414F-BDB9-7C1C63B6666C}.Release|x86.ActiveCfg = Release|Win32
+		{241B1080-9468-414F-BDB9-7C1C63B6666C}.Release|x86.Build.0 = Release|Win32
+		{9B6BFEA8-2E1D-4EC2-A56B-6FEF120D5937}.Debug|x64.ActiveCfg = Debug|Win32
+		{9B6BFEA8-2E1D-4EC2-A56B-6FEF120D5937}.Debug|x86.ActiveCfg = Debug|Win32
+		{9B6BFEA8-2E1D-4EC2-A56B-6FEF120D5937}.Debug|x86.Build.0 = Debug|Win32
+		{9B6BFEA8-2E1D-4EC2-A56B-6FEF120D5937}.Release|x64.ActiveCfg = Release|Win32
+		{9B6BFEA8-2E1D-4EC2-A56B-6FEF120D5937}.Release|x86.ActiveCfg = Release|Win32
+		{9B6BFEA8-2E1D-4EC2-A56B-6FEF120D5937}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
