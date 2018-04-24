@@ -13,12 +13,14 @@ public:
 	{
 		float x;
 		float y;
+		//friend ostream& operator<< (ostream& o, const GAME_VEC& src);
 		GAME_VEC& operator+= (const GAME_VEC & src1)
 		{
 			this->x = src1.x + this->x;
 			this->y = src1.y + this->y;
 			return *this;
 		}
+	
 		friend GAME_VEC operator+ (const GAME_VEC & src1, const GAME_VEC & src2)
 		{
 			return GAME_VEC{ src1.x + src2.x, src1.y + src2.y };
@@ -56,6 +58,7 @@ public:
 			return { abs(src.x),abs(src.y) };
 		}
 	};
+
 	GameObject();
 	~GameObject();
 	bool Initialize(SDL_Renderer*,std::string);
