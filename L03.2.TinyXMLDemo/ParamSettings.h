@@ -1,8 +1,8 @@
 #include <map>
 #include <string>
 
-#include "tinyxml.h"
-#include "tinystr.h"
+#include "tinyxml2.h"
+
 
 typedef enum{REQUIRED, RECOMMENDED, OPTIONAL} PARAM_TYPE;
 

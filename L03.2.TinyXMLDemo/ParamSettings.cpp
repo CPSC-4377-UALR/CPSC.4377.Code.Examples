@@ -1,28 +1,30 @@
 #include "ParamSettings.h"
 
 void ParamSettings::save(const char* pFilename){
+	
+	tinyxml2::XMLDocument doc;  
+	
+	
 
-	TiXmlDocument doc;  
-	TiXmlComment * comment;
+	tinyxml2::XMLComment * comment;
 	std::string commentText;
 
 	//Label the XML formatting
- 	TiXmlDeclaration* decl = new TiXmlDeclaration( "1.0", "", "" );  
-	doc.LinkEndChild( decl ); 
+	doc.InsertFirstChild(doc.NewDeclaration());
  
 	//Build the root node
-	TiXmlElement * root = new TiXmlElement(name.c_str());  
-	doc.LinkEndChild( root );  
-
-	comment = new TiXmlComment();
-	commentText=" Parameters for "+ name + " ";
-	comment->SetValue(commentText.c_str());  
+	tinyxml2::XMLNode* root = doc.NewElement(name.c_str());
+	doc.InsertEndChild(root);
+	
+	commentText = " Parameters for " + name + " ";
+	
+	comment = doc.NewComment(commentText.c_str());
 	root->LinkEndChild( comment );  
 
 	std::map<std::string, Parameter>::iterator iter;
 
 	//Form the node having children
-	TiXmlElement * params = new TiXmlElement( "Params" ); 
+	tinyxml2::XMLElement * params = doc.NewElement("Params");
 	root->LinkEndChild( params );  //This links this node to the parent "SpaceShip" or "root" node  
  
 	for(iter=paramMap.begin(); iter != paramMap.end(); iter++){
@@ -33,7 +35,7 @@ void ParamSettings::save(const char* pFilename){
 		const std::string & value = (*iter).second.getValue();
 
 		//The key (parameter id) forms the node's name.  
-		TiXmlElement* param = new TiXmlElement(key.c_str());  
+		tinyxml2::XMLElement* param = doc.NewElement(key.c_str());
 
 		//We can then mark-up each node's attributes 
 		param->SetAttribute("type", type);

@@ -62,7 +62,8 @@ void GameObject::Update()
 	while (diff > 180) {
 		diff -= 360;
 	}
-		//adjust angle of sprite
+	
+	//adjust angle of sprite
 	//&&'s are to avoid the sprite from shaking as it is lined up with the mouse or stopped
 	if (diff < -2 && velocity >0)
 	{

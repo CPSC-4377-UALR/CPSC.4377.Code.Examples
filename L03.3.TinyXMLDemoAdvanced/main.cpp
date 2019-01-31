@@ -3,8 +3,7 @@
 */
 
 
-#include "tinyxml.h"
-#include "tinystr.h"
+#include "tinyxml2.h"
 
 #include <list>
 #include <string>
@@ -98,41 +97,39 @@ int main(void){
 
 void AppSettings::save(const char* pFilename)
 {
-	TiXmlDocument doc;  
-	TiXmlElement* msg;
-	TiXmlComment * comment;
+	tinyxml2::XMLDocument doc;  
+	tinyxml2::XMLElement* msg;
+	tinyxml2::XMLComment * comment;
 	string s;
- 	TiXmlDeclaration* decl = new TiXmlDeclaration( "1.0", "", "" );  
-	doc.LinkEndChild( decl ); 
+	doc.InsertFirstChild(doc.NewDeclaration());
  
-	TiXmlElement * root = new TiXmlElement(m_name.c_str());  
-	doc.LinkEndChild( root );  
-
-	comment = new TiXmlComment();
-	s=" Settings for "+m_name+" ";
-	comment->SetValue(s.c_str());  
+	tinyxml2::XMLElement * root = doc.NewElement(m_name.c_str());  
+	doc.InsertEndChild( root );  
+	
+	s = " Settings for " + m_name + " ";
+	comment = doc.NewComment(s.c_str());
 	root->LinkEndChild( comment );  
 
 	// block: messages
 	{
 		MessageMap::iterator iter;
 
-		TiXmlElement * msgs = new TiXmlElement( "Messages" );  
+		tinyxml2::XMLElement * msgs = doc.NewElement( "Messages" );  
 		root->LinkEndChild( msgs );  
  
 		for (iter=m_messages.begin(); iter != m_messages.end(); iter++)
 		{
 			const string & key=(*iter).first;
 			const string & value=(*iter).second;
-			msg = new TiXmlElement(key.c_str());  
-			msg->LinkEndChild( new TiXmlText(value.c_str()));  
+			msg = doc.NewElement(key.c_str());  
+			msg->LinkEndChild( doc.NewText(value.c_str()));  
 			msgs->LinkEndChild( msg );  
 		}
 	}
 
 	// block: windows
 	{
-		TiXmlElement * windowsNode = new TiXmlElement( "Windows" );  
+		tinyxml2::XMLElement * windowsNode = doc.NewElement( "Windows" );  
 		root->LinkEndChild( windowsNode );  
 
 		list<WindowSettings>::iterator iter;
@@ -141,8 +138,8 @@ void AppSettings::save(const char* pFilename)
 		{
 			const WindowSettings& w=*iter;
 
-			TiXmlElement * window;
-			window = new TiXmlElement( "Window" );  
+			tinyxml2::XMLElement * window;
+			window = doc.NewElement("Window" );  
 			windowsNode->LinkEndChild( window );  
 			window->SetAttribute("name", w.name.c_str());
 			window->SetAttribute("x", w.x);
@@ -154,10 +151,10 @@ void AppSettings::save(const char* pFilename)
 
 	// block: connection
 	{
-		TiXmlElement * cxn = new TiXmlElement( "Connection" );  
+		tinyxml2::XMLElement * cxn = doc.NewElement( "Connection" );  
 		root->LinkEndChild( cxn );  
 		cxn->SetAttribute("ip", m_connection.ip.c_str());
-		cxn->SetDoubleAttribute("timeout", m_connection.timeout); 
+		cxn->SetAttribute("timeout", m_connection.timeout); 
 	}
 
 	doc.SaveFile(pFilename);  
@@ -181,12 +178,17 @@ void AppSettings::save(const char* pFilename)
 
 void AppSettings::load(const char* pFilename)
 {
-	TiXmlDocument doc(pFilename);
-	if (!doc.LoadFile()) return;
+	tinyxml2::XMLDocument doc;
 
-	TiXmlHandle hDoc(&doc);
-	TiXmlElement* pElem;
-	TiXmlHandle hRoot(0);
+	if (doc.LoadFile(pFilename) != tinyxml2::XML_SUCCESS)
+	{
+		printf("Bad File Path");
+		exit(1);
+	}
+
+	tinyxml2::XMLHandle hDoc(&doc);
+	tinyxml2::XMLElement* pElem;
+	tinyxml2::XMLHandle hRoot(0);
 
 	// block: name
 	{
@@ -196,7 +198,7 @@ void AppSettings::load(const char* pFilename)
 		m_name=pElem->Value();
 
 		// save this for later
-		hRoot=TiXmlHandle(pElem);
+		hRoot=tinyxml2::XMLHandle(pElem);
 	}
 
 	// block: string table
@@ -219,7 +221,7 @@ void AppSettings::load(const char* pFilename)
 	{
 		m_windows.clear(); // trash existing list
 
-		TiXmlElement* pWindowNode=hRoot.FirstChild( "Windows" ).FirstChild().Element();
+		tinyxml2::XMLElement* pWindowNode=hRoot.FirstChild( "Windows" ).FirstChild().Element();
 		for( pWindowNode; pWindowNode; pWindowNode=pWindowNode->NextSiblingElement())
 		{
 			WindowSettings w;

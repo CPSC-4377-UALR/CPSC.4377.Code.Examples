@@ -1,27 +1,30 @@
-﻿  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\ThirdParty\SDL2-2.0.7\lib\x86\libfreetype-6.dll
-  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\ThirdParty\SDL2-2.0.7\lib\x86\SDL2.dll
-  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\ThirdParty\SDL2-2.0.7\lib\x86\SDL2_ttf.dll
-  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\ThirdParty\SDL2-2.0.7\lib\x86\zlib1.dll
+﻿  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\ThirdParty\SDL2-2.0.7\lib\x86\libfreetype-6.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\ThirdParty\SDL2-2.0.7\lib\x86\SDL2.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\ThirdParty\SDL2-2.0.7\lib\x86\SDL2_ttf.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\ThirdParty\SDL2-2.0.7\lib\x86\zlib1.dll
           4 file(s) copied.
-  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\ThirdParty\SDL2_image-2.0.2\lib\x86\libjpeg-9.dll
-  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\ThirdParty\SDL2_image-2.0.2\lib\x86\libpng16-16.dll
-  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\ThirdParty\SDL2_image-2.0.2\lib\x86\libtiff-5.dll
-  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\ThirdParty\SDL2_image-2.0.2\lib\x86\libwebp-7.dll
-  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\ThirdParty\SDL2_image-2.0.2\lib\x86\SDL2_image.dll
-  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\ThirdParty\SDL2_image-2.0.2\lib\x86\zlib1.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\ThirdParty\SDL2_image-2.0.2\lib\x86\libjpeg-9.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\ThirdParty\SDL2_image-2.0.2\lib\x86\libpng16-16.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\ThirdParty\SDL2_image-2.0.2\lib\x86\libtiff-5.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\ThirdParty\SDL2_image-2.0.2\lib\x86\libwebp-7.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\ThirdParty\SDL2_image-2.0.2\lib\x86\SDL2_image.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\ThirdParty\SDL2_image-2.0.2\lib\x86\zlib1.dll
           6 file(s) copied.
   GameObject.cpp
-c:\users\ormeskirk\documents\github\cpsc.4377.code.examples\l08.2.npc.steering.behavior\source\gameobject.cpp(94): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  L08.2.NPC.Steering.Behavior.vcxproj -> C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\Game\L08.2.NPC.Steering.Behavior.exe
-  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\libfreetype-6.dll
-  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\libjpeg-9.dll
-  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\libpng16-16.dll
-  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\libtiff-5.dll
-  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\libwebp-7.dll
-  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\SDL2.dll
-  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\SDL2_image.dll
-  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\SDL2_ttf.dll
-  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\zlib1.dll
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.2.npc.steering.behavior\source\gameobject.cpp(70): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.2.npc.steering.behavior\source\gameobject.cpp(74): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.2.npc.steering.behavior\source\gameobject.cpp(93): warning C4305: '-=': truncation from 'double' to 'float'
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.2.npc.steering.behavior\source\gameobject.cpp(110): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  L08.2.NPC.Steering.Behavior.vcxproj -> C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\Game\L08.2.NPC.Steering.Behavior.exe
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\libfreetype-6.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\libjpeg-9.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\libpng16-16.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\libtiff-5.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\libwebp-7.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\SDL2.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\SDL2_image.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\SDL2_ttf.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\zlib1.dll
           9 file(s) moved.
-  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\Assets\Images\PlayerPaper.png -> C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\Game\Assets\Images\PlayerPaper.png
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\Assets\Images\PlayerPaper.png -> C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\Game\Assets\Images\PlayerPaper.png
   1 File(s) copied
