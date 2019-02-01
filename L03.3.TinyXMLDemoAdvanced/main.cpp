@@ -192,7 +192,7 @@ void AppSettings::load(const char* pFilename)
 
 	// block: name
 	{
-		pElem=hDoc.FirstChildElement().Element();
+		pElem=hDoc.FirstChildElement().ToElement();
 		// should always have a valid root but handle gracefully if it does
 		if (!pElem) return;
 		m_name=pElem->Value();
@@ -205,7 +205,7 @@ void AppSettings::load(const char* pFilename)
 	{
 		m_messages.clear(); // trash existing table
 
-		pElem=hRoot.FirstChild( "Messages" ).FirstChild().Element();
+		pElem=hRoot.FirstChild().FirstChild().ToElement();
 		for( pElem; pElem; pElem=pElem->NextSiblingElement())
 		{
 			const char *pKey=pElem->Value();
@@ -221,7 +221,7 @@ void AppSettings::load(const char* pFilename)
 	{
 		m_windows.clear(); // trash existing list
 
-		tinyxml2::XMLElement* pWindowNode=hRoot.FirstChild( "Windows" ).FirstChild().Element();
+		tinyxml2::XMLElement* pWindowNode=hRoot.FirstChild( ).FirstChild().ToElement();
 		for( pWindowNode; pWindowNode; pWindowNode=pWindowNode->NextSiblingElement())
 		{
 			WindowSettings w;
@@ -239,7 +239,7 @@ void AppSettings::load(const char* pFilename)
 
 	// block: connection
 	{
-		pElem=hRoot.FirstChild("Connection").Element();
+		pElem=hRoot.FirstChild().ToElement();
 		if (pElem)
 		{
 			m_connection.ip=pElem->Attribute("ip");

@@ -23,12 +23,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="tinyxml.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="tinystr.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="tinyxml2-master\tinyxml2.h">
       <Filter>Header Files</Filter>
     </ClInclude>

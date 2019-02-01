@@ -1,13 +1,13 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <HitchHikerApp>
     <!-- Settings for HitchHikerApp -->
     <Messages>
         <Farewell>Thanks for all the fish</Farewell>
-        <Welcome>Don&apos;t Panic</Welcome>
+        <Welcome>Don't Panic</Welcome>
     </Messages>
     <Windows>
-        <Window name="BookFrame" x="15" y="25" w="300" h="250" />
-        <Window name="OtherFrame" x="-15" y="225" w="111" h="7" />
+        <Window name="BookFrame" x="15" y="25" w="300" h="250"/>
+        <Window name="OtherFrame" x="-15" y="225" w="111" h="7"/>
     </Windows>
-    <Connection ip="192.168.0.77" timeout="42" />
+    <Connection ip="192.168.0.77" timeout="42"/>
 </HitchHikerApp>

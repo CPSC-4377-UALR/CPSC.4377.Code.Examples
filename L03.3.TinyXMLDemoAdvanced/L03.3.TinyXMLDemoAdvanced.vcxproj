@@ -71,8 +71,6 @@
     <ClCompile Include="tinyxml2-master\tinyxml2.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="tinystr.h" />
-    <ClInclude Include="tinyxml.h" />
     <ClInclude Include="tinyxml2-master\tinyxml2.h" />
   </ItemGroup>
   <ItemGroup>
