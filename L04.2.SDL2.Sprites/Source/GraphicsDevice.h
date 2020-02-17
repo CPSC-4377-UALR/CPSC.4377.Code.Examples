@@ -31,8 +31,8 @@ public:
 private:
 
 	//Window(s) to display graphics
-	SDL_Window* screen;
-	SDL_Renderer* renderer;
+	SDL_Window* screen{ nullptr };
+	SDL_Renderer* renderer{ nullptr };
 
 	//Parameter
 	const Uint32 SCREEN_WIDTH;

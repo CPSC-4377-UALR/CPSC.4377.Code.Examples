@@ -13,11 +13,21 @@
           6 file(s) copied.
   C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\ThirdParty\SDL2_gfx-1.0.1\lib\x86\SDL2_gfx.dll
           1 file(s) copied.
+  Timer.cpp
+  Texture.cpp
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l07.4.physics.debugger\source\texture.cpp(103): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l07.4.physics.debugger\source\texture.cpp(103): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Source.cpp
+  GraphicsDevice.cpp
+  GameObject.cpp
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l07.4.physics.debugger\source\gameobject.cpp(109): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l07.4.physics.debugger\source\gameobject.cpp(121): warning C4838: conversion from 'Uint32' to 'int' requires a narrowing conversion
   Box2DDebugDraw.cpp
 c:\users\sean orme\documents\github\cpsc.4377.code.examples\l07.4.physics.debugger\source\box2ddebugdraw.cpp(28): warning C4244: 'argument': conversion from 'float' to 'Sint16', possible loss of data
 c:\users\sean orme\documents\github\cpsc.4377.code.examples\l07.4.physics.debugger\source\box2ddebugdraw.cpp(31): warning C4244: 'argument': conversion from 'float' to 'Sint16', possible loss of data
 c:\users\sean orme\documents\github\cpsc.4377.code.examples\l07.4.physics.debugger\source\box2ddebugdraw.cpp(46): warning C4244: 'argument': conversion from 'float' to 'Sint16', possible loss of data
 c:\users\sean orme\documents\github\cpsc.4377.code.examples\l07.4.physics.debugger\source\box2ddebugdraw.cpp(49): warning C4244: 'argument': conversion from 'float' to 'Sint16', possible loss of data
+  Generating Code...
      Creating library C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\Game\L07.4.Physics.Debugger.lib and object C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\Game\L07.4.Physics.Debugger.exp
   L07.4.Physics.Debugger.vcxproj -> C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\Game\L07.4.Physics.Debugger.exe
   L07.4.Physics.Debugger.vcxproj -> C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.4.Physics.Debugger\Game\L07.4.Physics.Debugger.pdb (Partial PDB)

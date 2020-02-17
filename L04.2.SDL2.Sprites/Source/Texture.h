@@ -22,7 +22,7 @@ public:
 	void free();
 
 	//Renders texture at given point
-	void render(SDL_Renderer* renderer, int x, int y, SDL_Rect* clip = NULL);
+	void render(SDL_Renderer* renderer, int x, int y, SDL_Rect* clip = nullptr);
 
 	//Gets image dimensions
 	int getWidth();
@@ -31,11 +31,11 @@ public:
 private:
 
 	//The actual hardware texture
-	SDL_Texture* texture;
+	SDL_Texture* texture{ nullptr };
 
 	//Image dimensions
-	int width;
-	int height;
+	int width{ 0 };
+	int height{ 0 };
 
 };
 

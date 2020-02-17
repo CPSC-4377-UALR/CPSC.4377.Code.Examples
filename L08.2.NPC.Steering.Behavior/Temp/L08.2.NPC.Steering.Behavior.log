@@ -10,11 +10,18 @@
   C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\ThirdParty\SDL2_image-2.0.2\lib\x86\SDL2_image.dll
   C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\ThirdParty\SDL2_image-2.0.2\lib\x86\zlib1.dll
           6 file(s) copied.
+  Timer.cpp
+  Texture.cpp
+  Source.cpp
+  InputDevice.cpp
+  GraphicsDevice.cpp
   GameObject.cpp
 c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.2.npc.steering.behavior\source\gameobject.cpp(70): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
 c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.2.npc.steering.behavior\source\gameobject.cpp(74): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
 c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.2.npc.steering.behavior\source\gameobject.cpp(93): warning C4305: '-=': truncation from 'double' to 'float'
 c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.2.npc.steering.behavior\source\gameobject.cpp(110): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+     Creating library C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\Game\L08.2.NPC.Steering.Behavior.lib and object C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\Game\L08.2.NPC.Steering.Behavior.exp
   L08.2.NPC.Steering.Behavior.vcxproj -> C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\Game\L08.2.NPC.Steering.Behavior.exe
   C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\libfreetype-6.dll
   C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.2.NPC.Steering.Behavior\libjpeg-9.dll

@@ -4,11 +4,6 @@ void ParamSettings::save(const char* pFilename){
 	
 	tinyxml2::XMLDocument doc;  
 	
-	
-
-	tinyxml2::XMLComment * comment;
-	std::string commentText;
-
 	//Label the XML formatting
 	doc.InsertFirstChild(doc.NewDeclaration());
  
@@ -16,6 +11,8 @@ void ParamSettings::save(const char* pFilename){
 	tinyxml2::XMLNode* root = doc.NewElement(name.c_str());
 	doc.InsertEndChild(root);
 	
+	tinyxml2::XMLComment * comment;
+	std::string commentText;
 	commentText = " Parameters for " + name + " ";
 	
 	comment = doc.NewComment(commentText.c_str());

@@ -19,13 +19,7 @@
   C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\ThirdParty\SDL2_mixer-2.0.0\lib\x86\SDL2_mixer.dll
   C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\ThirdParty\SDL2_mixer-2.0.0\lib\x86\smpeg2.dll
           8 file(s) copied.
-  Timer.cpp
-  Texture.cpp
   Source.cpp
-  GraphicsDevice.cpp
-  GameObject.cpp
-  Generating Code...
-     Creating library C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\Game\L09.1.Mixer.Simple.lib and object C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\Game\L09.1.Mixer.Simple.exp
   M7.SDL.Mixer.Simple.vcxproj -> C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\Game\L09.1.Mixer.Simple.exe
   C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\libFLAC-8.dll
   C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L09.1.Mixer.Simple\libfreetype-6.dll

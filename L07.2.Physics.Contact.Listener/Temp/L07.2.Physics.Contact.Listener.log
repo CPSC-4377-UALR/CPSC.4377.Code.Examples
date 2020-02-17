@@ -11,7 +11,18 @@
   C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.2.Physics.Contact.Listener\ThirdParty\SDL2_image-2.0.2\lib\x86\SDL2_image.dll
   C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.2.Physics.Contact.Listener\ThirdParty\SDL2_image-2.0.2\lib\x86\zlib1.dll
           6 file(s) copied.
+  Timer.cpp
+  Texture.cpp
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l07.2.physics.contact.listener\source\texture.cpp(103): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l07.2.physics.contact.listener\source\texture.cpp(103): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
   Source.cpp
+  GraphicsDevice.cpp
+  GameObject.cpp
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l07.2.physics.contact.listener\source\gameobject.cpp(109): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l07.2.physics.contact.listener\source\gameobject.cpp(121): warning C4838: conversion from 'Uint32' to 'int' requires a narrowing conversion
+  ContactListener.cpp
+  Generating Code...
+     Creating library C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.2.Physics.Contact.Listener\Game\L07.2.Physics.Contact.Listener.lib and object C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.2.Physics.Contact.Listener\Game\L07.2.Physics.Contact.Listener.exp
   L07.2.Physics.Contact.Listener.vcxproj -> C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.2.Physics.Contact.Listener\Game\L07.2.Physics.Contact.Listener.exe
   L07.2.Physics.Contact.Listener.vcxproj -> C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.2.Physics.Contact.Listener\Game\L07.2.Physics.Contact.Listener.pdb (Partial PDB)
   C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L07.2.Physics.Contact.Listener\libfreetype-6.dll

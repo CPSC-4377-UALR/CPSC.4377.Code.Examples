@@ -1,28 +1,92 @@
-﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.1.NPC.Behavior.Tree\Temp\) contains files shared from another project (L05.1.Component.MegaMan.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.1.NPC.Behavior.Tree\ThirdParty\SDL2-2.0.7\lib\x86\libfreetype-6.dll
-  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.1.NPC.Behavior.Tree\ThirdParty\SDL2-2.0.7\lib\x86\SDL2.dll
-  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.1.NPC.Behavior.Tree\ThirdParty\SDL2-2.0.7\lib\x86\SDL2_ttf.dll
-  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.1.NPC.Behavior.Tree\ThirdParty\SDL2-2.0.7\lib\x86\zlib1.dll
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.1.NPC.Behavior.Tree\Temp\) contains files shared from another project (L05.1.Component.MegaMan.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.1.NPC.Behavior.Tree\ThirdParty\SDL2-2.0.7\lib\x86\libfreetype-6.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.1.NPC.Behavior.Tree\ThirdParty\SDL2-2.0.7\lib\x86\SDL2.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.1.NPC.Behavior.Tree\ThirdParty\SDL2-2.0.7\lib\x86\SDL2_ttf.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.1.NPC.Behavior.Tree\ThirdParty\SDL2-2.0.7\lib\x86\zlib1.dll
           4 file(s) copied.
-  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.1.NPC.Behavior.Tree\ThirdParty\SDL2_image-2.0.2\lib\x86\libjpeg-9.dll
-  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.1.NPC.Behavior.Tree\ThirdParty\SDL2_image-2.0.2\lib\x86\libpng16-16.dll
-  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.1.NPC.Behavior.Tree\ThirdParty\SDL2_image-2.0.2\lib\x86\libtiff-5.dll
-  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.1.NPC.Behavior.Tree\ThirdParty\SDL2_image-2.0.2\lib\x86\libwebp-7.dll
-  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.1.NPC.Behavior.Tree\ThirdParty\SDL2_image-2.0.2\lib\x86\SDL2_image.dll
-  C:\Users\ormeskirk\Documents\GitHub\CPSC.4377.Code.Examples\L08.1.NPC.Behavior.Tree\ThirdParty\SDL2_image-2.0.2\lib\x86\zlib1.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.1.NPC.Behavior.Tree\ThirdParty\SDL2_image-2.0.2\lib\x86\libjpeg-9.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.1.NPC.Behavior.Tree\ThirdParty\SDL2_image-2.0.2\lib\x86\libpng16-16.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.1.NPC.Behavior.Tree\ThirdParty\SDL2_image-2.0.2\lib\x86\libtiff-5.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.1.NPC.Behavior.Tree\ThirdParty\SDL2_image-2.0.2\lib\x86\libwebp-7.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.1.NPC.Behavior.Tree\ThirdParty\SDL2_image-2.0.2\lib\x86\SDL2_image.dll
+  C:\Users\Sean Orme\Documents\GitHub\CPSC.4377.Code.Examples\L08.1.NPC.Behavior.Tree\ThirdParty\SDL2_image-2.0.2\lib\x86\zlib1.dll
           6 file(s) copied.
   UserInputComponent.cpp
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\task.h(32): warning C4091: 'static ': ignored on left of 'Task::STATUS' when no variable is declared
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\userinputcomponent.cpp(57): error C2039: 'xPosition': is not a member of 'Sprite'
+  c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\gameobject.h(11): note: see declaration of 'Sprite'
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\userinputcomponent.cpp(58): error C2039: 'yPosition': is not a member of 'Sprite'
+  c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\gameobject.h(11): note: see declaration of 'Sprite'
+  TurnToward.cpp
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\task.h(32): warning C4091: 'static ': ignored on left of 'Task::STATUS' when no variable is declared
   Timer.cpp
   Texture.cpp
   Task.cpp
-c:\users\ormeskirk\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\task.cpp(6): error C2512: 'Component': no appropriate default constructor available
-  c:\users\ormeskirk\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\component.h(7): note: see declaration of 'Component'
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\task.h(32): warning C4091: 'static ': ignored on left of 'Task::STATUS' when no variable is declared
   SpriteComponent.cpp
-c:\users\ormeskirk\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\spritecomponent.cpp(76): warning C4838: conversion from 'Uint32' to 'int' requires a narrowing conversion
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\spritecomponent.cpp(65): error C2065: 'xPosition': undeclared identifier
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\spritecomponent.cpp(65): error C2065: 'yPosition': undeclared identifier
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\spritecomponent.cpp(76): error C2065: 'xPosition': undeclared identifier
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\spritecomponent.cpp(76): error C2065: 'yPosition': undeclared identifier
+  Spin.cpp
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\task.h(32): warning C4091: 'static ': ignored on left of 'Task::STATUS' when no variable is declared
   Source.cpp
-c:\users\ormeskirk\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\source.cpp(46): error C2660: 'GameObject::Initialize': function does not take 2 arguments
-c:\users\ormeskirk\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\source.cpp(49): error C2660: 'GameObject::Initialize': function does not take 2 arguments
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\task.h(32): warning C4091: 'static ': ignored on left of 'Task::STATUS' when no variable is declared
+  Sequence.cpp
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\task.h(32): warning C4091: 'static ': ignored on left of 'Task::STATUS' when no variable is declared
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\sequence.cpp(34): warning C4018: '<': signed/unsigned mismatch
+  Selector.cpp
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\task.h(32): warning C4091: 'static ': ignored on left of 'Task::STATUS' when no variable is declared
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\selector.cpp(36): warning C4018: '<': signed/unsigned mismatch
+  NPC.cpp
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\npc.h(20): error C2143: syntax error: missing ';' before '*'
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\npc.h(20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\npc.h(20): error C2238: unexpected token(s) preceding ';'
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\task.h(32): warning C4091: 'static ': ignored on left of 'Task::STATUS' when no variable is declared
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\npc.cpp(35): error C2065: 'behaviorTree': undeclared identifier
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\npc.cpp(38): error C2065: 'behaviorTree': undeclared identifier
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\npc.cpp(39): error C2065: 'behaviorTree': undeclared identifier
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\npc.cpp(39): error C2227: left of '->addChild' must point to class/struct/union/generic type
+  c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\npc.cpp(39): note: type is 'unknown-type'
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\npc.cpp(42): error C2065: 'behaviorTree': undeclared identifier
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\npc.cpp(46): error C2065: 'behaviorTree': undeclared identifier
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\npc.cpp(49): error C2065: 'behaviorTree': undeclared identifier
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\npc.cpp(52): error C2065: 'behaviorTree': undeclared identifier
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\npc.cpp(55): error C2374: 'turnTowardEnemy': redefinition; multiple initialization
+  c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\npc.cpp(46): note: see declaration of 'turnTowardEnemy'
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\npc.cpp(55): error C2065: 'behaviorTree': undeclared identifier
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\npc.cpp(58): error C2374: 'moveTowardEnemy': redefinition; multiple initialization
+  c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\npc.cpp(49): note: see declaration of 'moveTowardEnemy'
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\npc.cpp(61): error C2065: 'behaviorTree': undeclared identifier
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\npc.cpp(77): error C2065: 'behaviorTree': undeclared identifier
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\npc.cpp(77): error C2541: 'delete': cannot delete objects that are not pointers
+  MoveToward.cpp
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\task.h(32): warning C4091: 'static ': ignored on left of 'Task::STATUS' when no variable is declared
+  LeafTask.cpp
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\task.h(32): warning C4091: 'static ': ignored on left of 'Task::STATUS' when no variable is declared
   GraphicsDevice.cpp
   GameObject.cpp
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\npc.h(20): error C2143: syntax error: missing ';' before '*'
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\npc.h(20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\npc.h(20): error C2238: unexpected token(s) preceding ';'
   Component.cpp
+  BranchTask.cpp
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\task.h(32): warning C4091: 'static ': ignored on left of 'Task::STATUS' when no variable is declared
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\branchtask.cpp(24): warning C4018: '<': signed/unsigned mismatch
+  Blackboard.cpp
+  BehaviorTree.cpp
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\task.h(32): warning C4091: 'static ': ignored on left of 'Task::STATUS' when no variable is declared
   Generating Code...
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\leaftask.h(18): error C4716: 'LeafTask::getChild': must return a value
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\leaftask.h(16): error C4716: 'LeafTask::addChildToTask': must return a value
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\leaftask.h(17): error C4716: 'LeafTask::getChildCount': must return a value
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\movetoward.cpp(31): warning C4715: 'MoveToward::initiailize': not all control paths return a value
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\leaftask.h(16): error C4716: 'LeafTask::addChildToTask': must return a value
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\leaftask.h(17): error C4716: 'LeafTask::getChildCount': must return a value
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\leaftask.h(18): error C4716: 'LeafTask::getChild': must return a value
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\leaftask.h(16): error C4716: 'LeafTask::addChildToTask': must return a value
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\leaftask.h(17): error C4716: 'LeafTask::getChildCount': must return a value
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\leaftask.h(18): error C4716: 'LeafTask::getChild': must return a value
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\leaftask.h(16): error C4716: 'LeafTask::addChildToTask': must return a value
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\leaftask.h(17): error C4716: 'LeafTask::getChildCount': must return a value
+c:\users\sean orme\documents\github\cpsc.4377.code.examples\l08.1.npc.behavior.tree\source\leaftask.h(18): error C4716: 'LeafTask::getChild': must return a value

@@ -57,10 +57,10 @@ int main(int argc, char *argv[])
 	//The sound effects that will be used
 	Mix_Chunk *left = Mix_LoadWAV( "./Assets/Sounds/scratch.wav");
 	Mix_Chunk *right = Mix_LoadWAV( "./Assets/Sounds/high.wav" );
-
+	
     //Mixing parameters
     int numChannels = 100; //Number of concurrent channels to mix
-    int channelID = 1; //Select first available channel
+    int channelID = -1; //Select first available channel
     int numLoops = 5; //Number of times to repeat the chunk in a channel.
 
     //Allocate sufficient channels

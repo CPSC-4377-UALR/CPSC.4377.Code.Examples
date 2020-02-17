@@ -95,25 +95,24 @@ int main(int argc, char *argv[])
 	//
 	//Define Distance Joint (Max Distance Constraint)
 	//
-	b2DistanceJointDef jd;
-	jd.bodyA = object1->getPhysicsBody();
-	jd.bodyB = object2->getPhysicsBody();
-	jd.collideConnected = true;
-	jd.localAnchorA = jd.bodyA->GetLocalCenter();
-	jd.localAnchorB = jd.bodyB->GetLocalCenter();
-	   jd.length = RW2PW(141.0f);
+	//b2DistanceJointDef jd;
+	//jd.bodyA = object1->getPhysicsBody();
+	//jd.bodyB = object2->getPhysicsBody();
+	//jd.collideConnected = true;
+	//jd.localAnchorA = jd.bodyA->GetLocalCenter();
+	//jd.localAnchorB = jd.bodyB->GetLocalCenter();
+	//   jd.length = RW2PW(141.0f);
 
 	//
 	//Define Rope Joint (Max Distance Constraint)
 	//
-	/*b2RopeJointDef jd;
+	b2RopeJointDef jd;
 	jd.maxLength = RW2PW(141.0f);
 	jd.bodyA = object1->getPhysicsBody();
 	jd.bodyB = object2->getPhysicsBody();
-	jd.collideConnected = true;
+	jd.collideConnected = false;
 	jd.localAnchorA = jd.bodyA->GetLocalCenter();
-	jd.localAnchorB = jd.bodyB->GetLocalCenter();*/
-
+	jd.localAnchorB = jd.bodyB->GetLocalCenter();
 	//Add the joint to the physics world
 	world->CreateJoint(&jd);
 

@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 
 
 	//Construct Graphical Device
-	GraphicsDevice* gDevice = new GraphicsDevice(800, 600);
+	GraphicsDevice* gDevice{ new GraphicsDevice(800, 600) };
 	if (!gDevice->Initialize(true))
 	{
 		printf("Graphics Device could not initialize! SDL_Error: %s\n", SDL_GetError());

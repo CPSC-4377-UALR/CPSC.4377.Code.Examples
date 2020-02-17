@@ -25,8 +25,7 @@ int main() {
 	//Factory types
 	std::unique_ptr<Library> baseLibrary(std::make_unique<BaseLibrary>()); //storeas an inventory of base ObjectFactories
 	std::unique_ptr<Library> modLibrary(std::make_unique<ModLibrary>());  //stores inventory of modifed ObjectFactories (if they exist)
-
-																   //Imagine that the game is dynamically calling for types
+																	   //Imagine that the game is dynamically calling for types
 	string objectType;
 
 	//Display utility of the object factory

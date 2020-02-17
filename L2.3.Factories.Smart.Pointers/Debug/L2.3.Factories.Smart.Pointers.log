@@ -1,0 +1,38 @@
+﻿  Factories.Smart.Pointers.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\memory(1378): error C2440: '<function-style-cast>': cannot convert from 'std::shared_ptr<Child1Factory>' to 'std::shared_ptr<ObjectFactory>'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\memory(1378): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  c:\users\sean orme\documents\github\cpsc.4377.code.examples\l2.3.factories.smart.pointers\baselibrary.h(14): note: see reference to function template instantiation 'std::shared_ptr<ObjectFactory> &std::shared_ptr<ObjectFactory>::operator =<Child1Factory>(std::shared_ptr<Child1Factory> &&) noexcept' being compiled
+  c:\users\sean orme\documents\github\cpsc.4377.code.examples\l2.3.factories.smart.pointers\baselibrary.h(14): note: see reference to function template instantiation 'std::shared_ptr<ObjectFactory> &std::shared_ptr<ObjectFactory>::operator =<Child1Factory>(std::shared_ptr<Child1Factory> &&) noexcept' being compiled
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\memory(1378): error C2228: left of '.swap' must have class/struct/union
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\memory(1378): error C2440: '<function-style-cast>': cannot convert from 'std::shared_ptr<Child2Factory>' to 'std::shared_ptr<ObjectFactory>'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\memory(1378): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  c:\users\sean orme\documents\github\cpsc.4377.code.examples\l2.3.factories.smart.pointers\baselibrary.h(15): note: see reference to function template instantiation 'std::shared_ptr<ObjectFactory> &std::shared_ptr<ObjectFactory>::operator =<Child2Factory>(std::shared_ptr<Child2Factory> &&) noexcept' being compiled
+  c:\users\sean orme\documents\github\cpsc.4377.code.examples\l2.3.factories.smart.pointers\baselibrary.h(15): note: see reference to function template instantiation 'std::shared_ptr<ObjectFactory> &std::shared_ptr<ObjectFactory>::operator =<Child2Factory>(std::shared_ptr<Child2Factory> &&) noexcept' being compiled
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\memory(1378): error C2440: '<function-style-cast>': cannot convert from 'std::shared_ptr<Child3Factory>' to 'std::shared_ptr<ObjectFactory>'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\memory(1378): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  c:\users\sean orme\documents\github\cpsc.4377.code.examples\l2.3.factories.smart.pointers\modlibrary.h(14): note: see reference to function template instantiation 'std::shared_ptr<ObjectFactory> &std::shared_ptr<ObjectFactory>::operator =<Child3Factory>(std::shared_ptr<Child3Factory> &&) noexcept' being compiled
+  c:\users\sean orme\documents\github\cpsc.4377.code.examples\l2.3.factories.smart.pointers\modlibrary.h(14): note: see reference to function template instantiation 'std::shared_ptr<ObjectFactory> &std::shared_ptr<ObjectFactory>::operator =<Child3Factory>(std::shared_ptr<Child3Factory> &&) noexcept' being compiled
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\memory(2438): error C2259: 'Object': cannot instantiate abstract class
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\memory(2438): note: due to following members:
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\memory(2438): note: 'int Object::getNumber(void)': is abstract
+  c:\users\sean orme\documents\github\cpsc.4377.code.examples\l2.3.factories.smart.pointers\object.h(6): note: see declaration of 'Object::getNumber'
+  c:\users\sean orme\documents\github\cpsc.4377.code.examples\l2.3.factories.smart.pointers\factories.smart.pointers.cpp(67): note: see reference to function template instantiation 'std::unique_ptr<Object,std::default_delete<_Ty>> std::make_unique<Object,Object*&,void>(Object *&)' being compiled
+          with
+          [
+              _Ty=Object
+          ]
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\memory(2438): error C2664: 'Object::Object(Object &&)': cannot convert argument 1 from 'Object *' to 'const Object &'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\memory(2438): note: Reason: cannot convert from 'Object *' to 'const Object'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\memory(2438): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  ObjectFactory.cpp
+  BaseLibrary.cpp
+  Object.cpp
+  ModLibrary.cpp
+  Library.cpp
+  Child3Factory.cpp
+  Child3.cpp
+  Child2Factory.cpp
+  Child2.cpp
+  Child1Factory.cpp
+  Child1.cpp
+  Generating Code...

@@ -14,8 +14,7 @@
 
 GraphicsDevice::GraphicsDevice(Uint32 width, Uint32 height) : SCREEN_WIDTH(width), SCREEN_HEIGHT(height)
 {
-	screen = NULL;
-	renderer = NULL;
+	
 }
 
 GraphicsDevice::~GraphicsDevice()
@@ -33,7 +32,7 @@ bool GraphicsDevice::Initialize(bool fullScreen)
 	//Initialize all SDL subsystems
 	if (SDL_Init(SDL_INIT_EVERYTHING) < 0)
 	{
-		//printf( "SDL could not initialize! SDL_Error: %s\n", SDL_GetError() );
+		printf( "SDL could not initialize! SDL_Error: %s\n", SDL_GetError() );
 		return(false);
 	}
 
@@ -60,7 +59,7 @@ bool GraphicsDevice::Initialize(bool fullScreen)
 			SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
 
 	}
-	if (screen == NULL)
+	if (screen == nullptr)
 	{
 		//printf( "Window could not be created! SDL_Error: %s\n", SDL_GetError() );
 		return(false);
@@ -68,7 +67,7 @@ bool GraphicsDevice::Initialize(bool fullScreen)
 
 	//Construct the renderer
 	renderer = SDL_CreateRenderer(screen, -1, SDL_RENDERER_ACCELERATED);
-	if (renderer == NULL)
+	if (renderer == nullptr)
 	{
 		//printf( "Renderer could not be created! SDL_Error: %s\n", SDL_GetError() );
 		return(false);
@@ -83,13 +82,15 @@ bool GraphicsDevice::Initialize(bool fullScreen)
 
 bool GraphicsDevice::ShutDown()
 {
-	//Free the window
-	SDL_DestroyWindow(screen);
-	screen = NULL;
-
 	//Free renderer
 	SDL_DestroyRenderer(renderer);
-	renderer = NULL;
+	renderer = nullptr;
+
+	//Free the window
+	SDL_DestroyWindow(screen);
+	screen = nullptr;
+
+	
 
 	//Quit SDL Subsystems
 	IMG_Quit();

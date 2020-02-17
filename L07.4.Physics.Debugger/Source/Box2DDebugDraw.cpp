@@ -37,7 +37,7 @@ void Box2DDebugDraw::DrawPolygon(const b2Vec2 *vertices, int32 vertexCount, cons
 void Box2DDebugDraw::DrawSolidPolygon(const b2Vec2 *vertices, int32 vertexCount, const b2Color &color)
 {
    	// Draw Bound Box Vertices using SDL2 Primitives (Red)
-    SDL_SetRenderDrawColor(gDevice->getRenderer(),255,0,0,255);
+    SDL_SetRenderDrawColor(gDevice->getRenderer(),255,255,255,255);
 
 	// Draw Bound Box Vertices using SDL2 Primitives
 	for(int i=0; i<(vertexCount-1); i++) {
